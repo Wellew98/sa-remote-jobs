@@ -15,8 +15,23 @@
 <body>
 <header class="header">
 <div class="header__inner">
-<a href="index.html" class="header__brand">🇿🇦 <span>SA</span> Remote Jobs</a>
-<button class="header__toggle" id="navtoggle" aria-label="Menu">☰</button>
+<a href="index.html" class="header__logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 32" width="140" height="32">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#533afd"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <!-- SA monogram -->
+  <rect x="0" y="2" width="26" height="26" rx="6" fill="url(#lg)"/>
+  <text x="13" y="21" text-anchor="middle" font-family="Source Sans 3, sans-serif" font-weight="600" font-size="15" fill="#fff">SA</text>
+  <!-- Wordmark -->
+  <text x="33" y="22" font-family="Source Sans 3, sans-serif" font-weight="300" font-size="17" fill="#061b31" letter-spacing="-0.5">Remote<tspan font-weight="600">Jobs</tspan></text>
+</svg></a>
+<button class="header__toggle" id="navtoggle" aria-label="Menu">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
 <ul class="header__nav" id="navlinks"><li><a href="index.html" class="">Home</a></li>
 <li><a href="jobs.html" class="">Browse Jobs</a></li>
 <li><a href="categories.html" class="">Categories</a></li>
@@ -26,8 +41,8 @@
 </header>
 <section class="section"><div class="container"><div class="prose">
 <h1 style="font-size:2rem">Disclaimer</h1>
-<p>This page will contain the full disclaimer. SA Remote Jobs is a job aggregation platform that connects job seekers with employers. We do not employ or represent any of the companies listed on our board. All applications are handled directly by the respective employers.</p>
-<p>For questions, contact <a href="mailto:hello@saremotejobs.co.za">hello@saremotejobs.co.za</a>.</p>
+<p>This page will contain the full disclaimer. SA Remote Jobs is a job aggregation platform. We do not employ or represent any listed companies. All applications are handled directly by employers.</p>
+<p>Contact: <a href="mailto:hello@saremotejobs.co.za">hello@saremotejobs.co.za</a></p>
 </div></div></section>
 <footer class="footer">
 <div class="container">

@@ -15,8 +15,23 @@
 <body>
 <header class="header">
 <div class="header__inner">
-<a href="index.html" class="header__brand">🇿🇦 <span>SA</span> Remote Jobs</a>
-<button class="header__toggle" id="navtoggle" aria-label="Menu">☰</button>
+<a href="index.html" class="header__logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 32" width="140" height="32">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#533afd"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <!-- SA monogram -->
+  <rect x="0" y="2" width="26" height="26" rx="6" fill="url(#lg)"/>
+  <text x="13" y="21" text-anchor="middle" font-family="Source Sans 3, sans-serif" font-weight="600" font-size="15" fill="#fff">SA</text>
+  <!-- Wordmark -->
+  <text x="33" y="22" font-family="Source Sans 3, sans-serif" font-weight="300" font-size="17" fill="#061b31" letter-spacing="-0.5">Remote<tspan font-weight="600">Jobs</tspan></text>
+</svg></a>
+<button class="header__toggle" id="navtoggle" aria-label="Menu">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
 <ul class="header__nav" id="navlinks"><li><a href="index.html" class="">Home</a></li>
 <li><a href="jobs.html" class="active">Browse Jobs</a></li>
 <li><a href="categories.html" class="">Categories</a></li>
@@ -43,15 +58,13 @@
 <div class="job-card__company">Takealot</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Cape Town</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Cape Town</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Python</span><span class="job-card__tag">Django</span><span class="job-card__tag">AWS</span></div>
-<div class="job-card__salary">💰 R70,000 – R90,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R70,000 – R90,000/mo</div>
 <div class="job-card__desc">Join South Africa's largest online retailer building the backend services that handle millions of requests daily.</div>
 <div class="job-card__footer">
 <span>2 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -61,15 +74,13 @@
 <div class="job-card__company">Amazon</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Remote (SA)</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Remote (SA)</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">English</span><span class="job-card__tag">Phone</span><span class="job-card__tag">Chat</span></div>
-<div class="job-card__salary">💰 R12,000 – R18,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R12,000 – R18,000/mo</div>
 <div class="job-card__desc">Provide support to Amazon customers worldwide. Equipment provided, full training, work from anywhere in SA.</div>
 <div class="job-card__footer">
 <span>1 day ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -79,15 +90,13 @@
 <div class="job-card__company">OfferZen</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Johannesburg</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Johannesburg</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">SEO</span><span class="job-card__tag">PPC</span><span class="job-card__tag">Content</span></div>
-<div class="job-card__salary">💰 R45,000 – R60,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R45,000 – R60,000/mo</div>
 <div class="job-card__desc">Lead marketing at SA's top tech talent marketplace. Remote-friendly with monthly team meetups in Joburg.</div>
 <div class="job-card__footer">
 <span>3 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -97,15 +106,13 @@
 <div class="job-card__company">Yoco</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Cape Town</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Cape Town</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">React</span><span class="job-card__tag">TypeScript</span><span class="job-card__tag">Next.js</span></div>
-<div class="job-card__salary">💰 R55,000 – R75,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R55,000 – R75,000/mo</div>
 <div class="job-card__desc">Build merchant-facing products used by thousands of small businesses across South Africa.</div>
 <div class="job-card__footer">
 <span>Today</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -115,15 +122,13 @@
 <div class="job-card__company">Boldr</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Remote (SA)</span><span>💼 Part-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Remote (SA)</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Part-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Admin</span><span class="job-card__tag">Email</span><span class="job-card__tag">Calendar</span></div>
-<div class="job-card__salary">💰 R8,000 – R12,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R8,000 – R12,000/mo</div>
 <div class="job-card__desc">Support international clients with scheduling, inbox management, and research. Flexible hours.</div>
 <div class="job-card__footer">
 <span>5 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -133,15 +138,13 @@
 <div class="job-card__company">Luno</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Remote (SA)</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Remote (SA)</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Figma</span><span class="job-card__tag">Research</span><span class="job-card__tag">Design Systems</span></div>
-<div class="job-card__salary">💰 R50,000 – R70,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R50,000 – R70,000/mo</div>
 <div class="job-card__desc">Design for Africa's leading crypto platform, serving millions of users across 40+ countries.</div>
 <div class="job-card__footer">
 <span>1 week ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -151,15 +154,13 @@
 <div class="job-card__company">Aerobotics</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Stellenbosch</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Stellenbosch</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">B2B</span><span class="job-card__tag">Outbound</span><span class="job-card__tag">AgriTech</span></div>
-<div class="job-card__salary">💰 R20,000 – R30,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R20,000 – R30,000/mo</div>
 <div class="job-card__desc">Drive growth for an AI-powered agritech startup. Remote with optional Stellenbosch office days.</div>
 <div class="job-card__footer">
 <span>4 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -169,15 +170,13 @@
 <div class="job-card__company">GetSmarter</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Remote (SA)</span><span>💼 Contract</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Remote (SA)</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Contract</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Copywriting</span><span class="job-card__tag">EdTech</span><span class="job-card__tag">SEO</span></div>
-<div class="job-card__salary">💰 R15,000 – R25,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R15,000 – R25,000/mo</div>
 <div class="job-card__desc">Write course descriptions and marketing copy for online education programmes. Flexible contract.</div>
 <div class="job-card__footer">
 <span>3 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -187,15 +186,13 @@
 <div class="job-card__company">Entersekt</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Pretoria</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Pretoria</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Kubernetes</span><span class="job-card__tag">AWS</span><span class="job-card__tag">CI/CD</span></div>
-<div class="job-card__salary">💰 R80,000 – R110,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R80,000 – R110,000/mo</div>
 <div class="job-card__desc">Build cloud infrastructure for banking security products used by major global financial institutions.</div>
 <div class="job-card__footer">
 <span>1 week ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -205,15 +202,13 @@
 <div class="job-card__company">Xero</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Remote (SA)</span><span>💼 Part-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Remote (SA)</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Part-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Xero</span><span class="job-card__tag">Payroll</span><span class="job-card__tag">SARS</span></div>
-<div class="job-card__salary">💰 R12,000 – R18,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R12,000 – R18,000/mo</div>
 <div class="job-card__desc">Manage books for small business clients. Flexible schedule, work from anywhere in South Africa.</div>
 <div class="job-card__footer">
 <span>6 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -223,15 +218,13 @@
 <div class="job-card__company">Superbalist</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Cape Town</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Cape Town</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Instagram</span><span class="job-card__tag">TikTok</span><span class="job-card__tag">Fashion</span></div>
-<div class="job-card__salary">💰 R25,000 – R35,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R25,000 – R35,000/mo</div>
 <div class="job-card__desc">Own social strategy for SA's top fashion e-commerce brand. Create, engage, grow the community.</div>
 <div class="job-card__footer">
 <span>2 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -241,15 +234,13 @@
 <div class="job-card__company">Mukuru</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Johannesburg</span><span>💼 Contract</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Johannesburg</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Contract</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Excel</span><span class="job-card__tag">Data Capture</span><span class="job-card__tag">CRM</span></div>
-<div class="job-card__salary">💰 R7,000 – R10,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R7,000 – R10,000/mo</div>
 <div class="job-card__desc">Process customer data for Africa's leading remittance company. Full training provided.</div>
 <div class="job-card__footer">
 <span>Today</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -259,15 +250,13 @@
 <div class="job-card__company">Woolworths</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Cape Town</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Cape Town</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Adobe Suite</span><span class="job-card__tag">Branding</span><span class="job-card__tag">Retail</span></div>
-<div class="job-card__salary">💰 R30,000 – R42,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R30,000 – R42,000/mo</div>
 <div class="job-card__desc">Create visual assets for one of SA's most trusted brands. Digital and print design work.</div>
 <div class="job-card__footer">
 <span>4 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -277,15 +266,13 @@
 <div class="job-card__company">Old Mutual</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Johannesburg</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Johannesburg</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Excel</span><span class="job-card__tag">Power BI</span><span class="job-card__tag">IFRS</span></div>
-<div class="job-card__salary">💰 R40,000 – R55,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R40,000 – R55,000/mo</div>
 <div class="job-card__desc">Support investment decisions with financial modelling and market analysis. Hybrid arrangement.</div>
 <div class="job-card__footer">
 <span>5 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -295,15 +282,13 @@
 <div class="job-card__company">DVT</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Remote (SA)</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Remote (SA)</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Selenium</span><span class="job-card__tag">Manual</span><span class="job-card__tag">Agile</span></div>
-<div class="job-card__salary">💰 R35,000 – R50,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R35,000 – R50,000/mo</div>
 <div class="job-card__desc">Ensure quality across web and mobile apps for enterprise clients. ISTQB preferred.</div>
 <div class="job-card__footer">
 <span>3 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -313,19 +298,17 @@
 <div class="job-card__company">Webhelp</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Durban</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Durban</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Inbound</span><span class="job-card__tag">English</span><span class="job-card__tag">Night Shift</span></div>
-<div class="job-card__salary">💰 R8,500 – R12,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R8,500 – R12,000/mo</div>
 <div class="job-card__desc">Handle customer inquiries for a UK telecoms client. Night shift with premium rates.</div>
 <div class="job-card__footer">
 <span>2 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a></div>
 <div style="text-align:center;margin-top:32px;padding:24px;background:var(--brand-bg);border-radius:var(--radius);border:1px solid var(--brand-light)">
-<p style="color:var(--brand);font-weight:400;margin:0">📥 New jobs added every morning. Check back for fresh listings.</p>
+<p style="color:var(--brand);font-weight:400;margin:0"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> New jobs added every morning. Check back for fresh listings.</p>
 </div>
 </div>
 </section>

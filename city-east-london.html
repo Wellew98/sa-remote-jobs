@@ -15,8 +15,23 @@
 <body>
 <header class="header">
 <div class="header__inner">
-<a href="index.html" class="header__brand">🇿🇦 <span>SA</span> Remote Jobs</a>
-<button class="header__toggle" id="navtoggle" aria-label="Menu">☰</button>
+<a href="index.html" class="header__logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 32" width="140" height="32">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#533afd"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <!-- SA monogram -->
+  <rect x="0" y="2" width="26" height="26" rx="6" fill="url(#lg)"/>
+  <text x="13" y="21" text-anchor="middle" font-family="Source Sans 3, sans-serif" font-weight="600" font-size="15" fill="#fff">SA</text>
+  <!-- Wordmark -->
+  <text x="33" y="22" font-family="Source Sans 3, sans-serif" font-weight="300" font-size="17" fill="#061b31" letter-spacing="-0.5">Remote<tspan font-weight="600">Jobs</tspan></text>
+</svg></a>
+<button class="header__toggle" id="navtoggle" aria-label="Menu">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
 <ul class="header__nav" id="navlinks"><li><a href="index.html" class="">Home</a></li>
 <li><a href="jobs.html" class="">Browse Jobs</a></li>
 <li><a href="categories.html" class="">Categories</a></li>
@@ -26,12 +41,17 @@
 </header>
 <section class="hero">
 <div class="container">
-<div class="hero__badge">🇿🇦 South Africa's Remote Job Board</div>
+<div class="hero__badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> South Africa's Remote Job Board</div>
 <h1>Remote Jobs in South Africa</h1>
 <p>Browse remote jobs available to professionals in East London.</p>
 <div class="hero__search">
 <input type="text" placeholder="Search by role, skill, or company..." id="heroSearch">
-<button onclick="window.location.href='jobs.html?search='+encodeURIComponent(document.getElementById('heroSearch').value)">Search Jobs</button>
+<button onclick="window.location.href='jobs.html?search='+encodeURIComponent(document.getElementById('heroSearch').value)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> Search Jobs</button>
+</div>
+<div class="hero__stats">
+<div><strong>212+</strong> remote jobs</div>
+<div><strong>87+</strong> companies</div>
+<div><strong>Updated daily</strong></div>
 </div>
 </div>
 </section>
@@ -39,8 +59,7 @@
 <div class="container">
 <h1 style="font-size:2rem;margin-bottom:16px">Remote Jobs in East London</h1>
 <div class="prose" style="margin-bottom:32px">
-<p>Skip the traffic and work from home. These remote positions are available to East London residents — whether you're in the city centre or the suburbs.</p>
-<p>While these are work-from-home roles, some companies prefer candidates in specific cities for occasional in-person meetings or timezone alignment. Each listing specifies any location requirements.</p>
+<p>Skip the traffic and work from home. These remote positions are available to residents of East London and surrounding areas.</p>
 </div>
 <div class="filter-bar"><select onchange="if(this.value)window.location=this.value">
 <option value="">All Categories</option>
@@ -54,15 +73,13 @@
 <div class="job-card__company">Amazon</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Remote (SA)</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Remote (SA)</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">English</span><span class="job-card__tag">Phone</span><span class="job-card__tag">Chat</span></div>
-<div class="job-card__salary">💰 R12,000 – R18,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R12,000 – R18,000/mo</div>
 <div class="job-card__desc">Provide support to Amazon customers worldwide. Equipment provided, full training, work from anywhere in SA.</div>
 <div class="job-card__footer">
 <span>1 day ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -72,15 +89,13 @@
 <div class="job-card__company">Boldr</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Remote (SA)</span><span>💼 Part-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Remote (SA)</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Part-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Admin</span><span class="job-card__tag">Email</span><span class="job-card__tag">Calendar</span></div>
-<div class="job-card__salary">💰 R8,000 – R12,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R8,000 – R12,000/mo</div>
 <div class="job-card__desc">Support international clients with scheduling, inbox management, and research. Flexible hours.</div>
 <div class="job-card__footer">
 <span>5 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -90,15 +105,13 @@
 <div class="job-card__company">Luno</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Remote (SA)</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Remote (SA)</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Figma</span><span class="job-card__tag">Research</span><span class="job-card__tag">Design Systems</span></div>
-<div class="job-card__salary">💰 R50,000 – R70,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R50,000 – R70,000/mo</div>
 <div class="job-card__desc">Design for Africa's leading crypto platform, serving millions of users across 40+ countries.</div>
 <div class="job-card__footer">
 <span>1 week ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -108,15 +121,13 @@
 <div class="job-card__company">GetSmarter</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Remote (SA)</span><span>💼 Contract</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Remote (SA)</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Contract</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Copywriting</span><span class="job-card__tag">EdTech</span><span class="job-card__tag">SEO</span></div>
-<div class="job-card__salary">💰 R15,000 – R25,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R15,000 – R25,000/mo</div>
 <div class="job-card__desc">Write course descriptions and marketing copy for online education programmes. Flexible contract.</div>
 <div class="job-card__footer">
 <span>3 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -126,15 +137,13 @@
 <div class="job-card__company">Xero</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Remote (SA)</span><span>💼 Part-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Remote (SA)</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Part-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Xero</span><span class="job-card__tag">Payroll</span><span class="job-card__tag">SARS</span></div>
-<div class="job-card__salary">💰 R12,000 – R18,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R12,000 – R18,000/mo</div>
 <div class="job-card__desc">Manage books for small business clients. Flexible schedule, work from anywhere in South Africa.</div>
 <div class="job-card__footer">
 <span>6 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a><a href="jobs.html" class="job-card">
 <div class="job-card__top">
@@ -144,15 +153,13 @@
 <div class="job-card__company">DVT</div>
 </div>
 </div>
-<div class="job-card__meta">
-<span>📍 Remote (SA)</span><span>💼 Full-time</span>
-</div>
+<div class="job-card__meta"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Remote (SA)</span><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg> Full-time</span></div>
 <div class="job-card__tags"><span class="job-card__tag">Selenium</span><span class="job-card__tag">Manual</span><span class="job-card__tag">Agile</span></div>
-<div class="job-card__salary">💰 R35,000 – R50,000/mo</div>
+<div class="job-card__salary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> R35,000 – R50,000/mo</div>
 <div class="job-card__desc">Ensure quality across web and mobile apps for enterprise clients. ISTQB preferred.</div>
 <div class="job-card__footer">
 <span>3 days ago</span>
-<span style="color:var(--brand);font-weight:500">Apply →</span>
+<span style="color:var(--brand);font-weight:500">Apply &rarr;</span>
 </div>
 </a></div>
 <div style="margin-top:28px"><h3 style="margin-bottom:14px">Other Cities</h3>
