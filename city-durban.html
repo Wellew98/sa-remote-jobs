@@ -4,51 +4,50 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Remote Jobs in Durban — Work From Home | SA Remote Jobs</title>
-<meta name="description" content="Find remote jobs available in Durban. Browse work-from-home positions from companies hiring in Durban, South Africa. Updated daily.">
+<meta name="description" content="Find remote jobs available in Durban. Browse work-from-home positions from companies hiring in Durban, South Africa.">
 <link rel="canonical" href="https://saremotejobs.co.za/city-durban.html">
 <meta name="robots" content="all">
-<meta name="theme-color" content="#0D9488">
+<meta name="theme-color" content="#533afd">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 
 </head>
 <body>
-<header class="site-header">
-<nav class="nav">
-<a href="index.html" class="nav__brand">🇿🇦 <span>SA</span> Remote Jobs</a>
-<button class="nav__toggle" id="navtoggle" aria-label="Menu">☰</button>
-<ul class="nav__links" id="navlinks"><li><aindex.html="">Home</a></li><li><ajobs.html="">Browse Jobs</a></li><li><acategories.html="">Categories</a></li><li><acities.html="">Cities</a></li><li><aabout.html="">About</a></li><li><a href="contact.html" class="nav__post">Post a Job</a></li></ul>
-</nav>
+<header class="header">
+<div class="header__inner">
+<a href="index.html" class="header__brand">🇿🇦 <span>SA</span> Remote Jobs</a>
+<button class="header__toggle" id="navtoggle" aria-label="Menu">☰</button>
+<ul class="header__nav" id="navlinks"><li><a href="index.html" class="">Home</a></li>
+<li><a href="jobs.html" class="">Browse Jobs</a></li>
+<li><a href="categories.html" class="">Categories</a></li>
+<li><a href="cities.html" class="">Cities</a></li>
+<li><a href="about.html" class="">About</a></li><li><a href="contact.html" class="btn btn--primary" style="margin-left:8px;font-size:0.85rem;padding:8px 16px">Post a Job</a></li></ul>
+</div>
 </header>
 <section class="hero">
-<div class="hero__inner">
+<div class="container">
 <div class="hero__badge">🇿🇦 South Africa's Remote Job Board</div>
 <h1>Remote Jobs in South Africa</h1>
-<p>Find legitimate work-from-home jobs from companies that hire South Africans. No sign-up needed — just search and apply.</p>
+<p>Browse remote jobs available to professionals in Durban.</p>
 <div class="hero__search">
-<input type="text" placeholder="Search jobs in Durban..." id="heroSearch">
+<input type="text" placeholder="Search by role, skill, or company..." id="heroSearch">
 <button onclick="window.location.href='jobs.html?search='+encodeURIComponent(document.getElementById('heroSearch').value)">Search Jobs</button>
-</div>
-<div class="hero__stats">
-<div><strong>212+</strong> remote jobs</div>
-<div><strong>87+</strong> companies hiring</div>
-<div><strong>Daily</strong> new listings</div>
 </div>
 </div>
 </section>
 <section class="section">
-<div class="wrap">
-<h1 style="font-family:var(--font-display);font-size:2rem">Remote Jobs in Durban</h1>
-<p class="section__lead">Work-from-home positions available to Durban residents. Skip the traffic — work remotely.</p>
-<div class="filter-bar">
-<select onchange="window.location=this.value">
-<option value="">All Categories</option>
-<option value="category-it-development.html">IT & Development</option><option value="category-marketing-sales.html">Marketing & Sales</option><option value="category-customer-service.html">Customer Service</option><option value="category-data-entry-admin.html">Data Entry & Admin</option><option value="category-design-creative.html">Design & Creative</option><option value="category-finance-accounting.html">Finance & Accounting</option>
-</select>
-<span class="filter-count">1 jobs in Durban</span>
+<div class="container">
+<h1 style="font-size:2rem;margin-bottom:16px">Remote Jobs in Durban</h1>
+<div class="prose" style="margin-bottom:32px">
+<p>Skip the traffic and work from home. These remote positions are available to Durban residents — whether you're in the city centre or the suburbs.</p>
+<p>While these are work-from-home roles, some companies prefer candidates in specific cities for occasional in-person meetings or timezone alignment. Each listing specifies any location requirements.</p>
 </div>
-<div class="job-grid">
-<a href="jobs.html" class="job-card">
-<div class="job-card__header">
+<div class="filter-bar"><select onchange="if(this.value)window.location=this.value">
+<option value="">All Categories</option>
+<option value="category-it-development.html">IT & Development (94)</option><option value="category-marketing-sales.html">Marketing & Sales (38)</option><option value="category-customer-service.html">Customer Service (27)</option><option value="category-data-entry-admin.html">Data Entry & Admin (19)</option><option value="category-design-creative.html">Design & Creative (21)</option><option value="category-finance-accounting.html">Finance & Accounting (13)</option>
+</select>  <span class="filter-count">1 jobs found</span></div>
+<div class="job-grid"><a href="jobs.html" class="job-card">
+<div class="job-card__top">
 <div class="job-card__logo">WH</div>
 <div>
 <div class="job-card__title">Call Centre Agent</div>
@@ -56,22 +55,18 @@
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Durban</span>
-<span>💼 Full-time</span>
+<span>📍 Durban</span><span>💼 Full-time</span>
 </div>
 <div class="job-card__tags"><span class="job-card__tag">Inbound</span><span class="job-card__tag">English</span><span class="job-card__tag">Night Shift</span></div>
 <div class="job-card__salary">💰 R8,500 – R12,000/mo</div>
-<div class="job-card__desc">Handle customer inquiries for a UK-based telecoms client. Night shift with premium rates. Equipment provided.</div>
+<div class="job-card__desc">Handle customer inquiries for a UK telecoms client. Night shift with premium rates.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">2 days ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>2 days ago</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
-</a>
-</div>
-<div style="margin-top:28px">
-<h3 style="margin-bottom:12px">Other Cities</h3>
-<div class="city-grid">
-<a href="city-cape-town.html" class="city-card">
+</a></div>
+<div style="margin-top:28px"><h3 style="margin-bottom:14px">Other Cities</h3>
+<div class="city-grid"><a href="city-cape-town.html" class="city-card">
 <span class="city-card__name">Cape Town</span>
 <span class="city-card__count">78 jobs</span>
 </a><a href="city-johannesburg.html" class="city-card">
@@ -95,40 +90,35 @@
 </a><a href="city-remote-anywhere.html" class="city-card">
 <span class="city-card__name">Remote (Anywhere)</span>
 <span class="city-card__count">42 jobs</span>
-</a>
-</div>
-</div>
+</a></div></div>
 </div>
 </section>
-<footer class="site-footer">
-<div class="wrap">
-<div class="footer-grid">
+<footer class="footer">
+<div class="container">
+<div class="footer__grid">
 <div>
 <h4>SA Remote Jobs</h4>
-<p>Connecting South Africans with legitimate remote work. Every job verified to hire SA residents.</p>
+<p>Connecting South Africans with legitimate remote work opportunities. Every job on our board accepts applicants based in South Africa.</p>
 </div>
 <div>
 <h4>Browse</h4>
-<ul>
-<li><a href="jobs.html">All Jobs</a></li>
-<li><a href="categories.html">Categories</a></li>
-<li><a href="cities.html">Cities</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="faq.html">FAQ</a></li>
-</ul>
+<ul><li><a href="jobs.html">All Jobs</a></li><li><a href="categories.html">Categories</a></li><li><a href="cities.html">Cities</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li></ul>
 </div>
 <div>
 <h4>Categories</h4>
-<ul>
-<li><a href="category-it-development.html">IT & Development</a></li><li><a href="category-marketing-sales.html">Marketing & Sales</a></li><li><a href="category-customer-service.html">Customer Service</a></li><li><a href="category-data-entry-admin.html">Data Entry & Admin</a></li><li><a href="category-design-creative.html">Design & Creative</a></li><li><a href="category-finance-accounting.html">Finance & Accounting</a></li>
-</ul>
+<ul><li><a href="category-it-development.html">IT & Development</a></li>
+<li><a href="category-marketing-sales.html">Marketing & Sales</a></li>
+<li><a href="category-customer-service.html">Customer Service</a></li>
+<li><a href="category-data-entry-admin.html">Data Entry & Admin</a></li>
+<li><a href="category-design-creative.html">Design & Creative</a></li>
+<li><a href="category-finance-accounting.html">Finance & Accounting</a></li></ul>
 </div>
 <div>
 <h4>Contact</h4>
-<p>Email: <a href="mailto:hello@saremotejobs.co.za">hello@saremotejobs.co.za</a></p>
+<p><a href="mailto:hello@saremotejobs.co.za">hello@saremotejobs.co.za</a></p>
 </div>
 </div>
-<div class="footer-bottom">&copy; 2026 SA Remote Jobs. All rights reserved.</div>
+<div class="footer__bottom">&copy; 2026 SA Remote Jobs. All rights reserved.</div>
 </div>
 </footer>
 <script src="assets/main.js"></script>

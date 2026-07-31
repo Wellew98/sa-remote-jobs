@@ -3,44 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Remote Jobs South Africa — Find Work-From-Home &amp; Online Jobs | SA Remote Jobs</title>
-<meta name="description" content="Find 212+ legitimate remote jobs in South Africa. Browse work-from-home, online, and remote positions from 87+ companies hiring SA residents. Updated daily.">
+<title>Remote Jobs South Africa — Find Work-From-Home Jobs | SA Remote Jobs</title>
+<meta name="description" content="Find 212+ legitimate remote jobs in South Africa. Browse work-from-home positions across IT, marketing, customer service &amp; more. Updated daily. No sign-up needed.">
 <link rel="canonical" href="https://saremotejobs.co.za/">
 <meta name="robots" content="all">
-<meta name="theme-color" content="#0D9488">
+<meta name="theme-color" content="#533afd">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 
 </head>
 <body>
-<header class="site-header">
-<nav class="nav">
-<a href="index.html" class="nav__brand">🇿🇦 <span>SA</span> Remote Jobs</a>
-<button class="nav__toggle" id="navtoggle" aria-label="Menu">☰</button>
-<ul class="nav__links" id="navlinks"><li><aindex.html=" class="active"">Home</a></li><li><ajobs.html="">Browse Jobs</a></li><li><acategories.html="">Categories</a></li><li><acities.html="">Cities</a></li><li><aabout.html="">About</a></li><li><a href="contact.html" class="nav__post">Post a Job</a></li></ul>
-</nav>
+<header class="header">
+<div class="header__inner">
+<a href="index.html" class="header__brand">🇿🇦 <span>SA</span> Remote Jobs</a>
+<button class="header__toggle" id="navtoggle" aria-label="Menu">☰</button>
+<ul class="header__nav" id="navlinks"><li><a href="index.html" class="active">Home</a></li>
+<li><a href="jobs.html" class="">Browse Jobs</a></li>
+<li><a href="categories.html" class="">Categories</a></li>
+<li><a href="cities.html" class="">Cities</a></li>
+<li><a href="about.html" class="">About</a></li><li><a href="contact.html" class="btn btn--primary" style="margin-left:8px;font-size:0.85rem;padding:8px 16px">Post a Job</a></li></ul>
+</div>
 </header>
 <section class="hero">
-<div class="hero__inner">
+<div class="container">
 <div class="hero__badge">🇿🇦 South Africa's Remote Job Board</div>
 <h1>Remote Jobs in South Africa</h1>
-<p>Find legitimate work-from-home jobs from companies that hire South Africans. No sign-up needed — just search and apply.</p>
+<p>Find legitimate work-from-home jobs from companies that hire South Africans.</p>
 <div class="hero__search">
-<input type="text" placeholder="Search jobs (e.g. 'developer', 'marketing')..." id="heroSearch">
+<input type="text" placeholder="Search by role, skill, or company..." id="heroSearch">
 <button onclick="window.location.href='jobs.html?search='+encodeURIComponent(document.getElementById('heroSearch').value)">Search Jobs</button>
-</div>
-<div class="hero__stats">
-<div><strong>212+</strong> remote jobs</div>
-<div><strong>87+</strong> companies hiring</div>
-<div><strong>Daily</strong> new listings</div>
 </div>
 </div>
 </section>
 <section class="section">
-<div class="wrap">
+<div class="container">
+<div class="section__head">
 <h2>Browse by Category</h2>
-<p class="section__lead">Find remote jobs in your field. From entry-level to senior, updated daily.</p>
-<div class="cat-grid">
-<a href="category-it-development.html" class="cat-card">
+<p>Find remote jobs in your field — from entry-level to senior, updated every day.</p>
+</div>
+<div class="cat-grid"><a href="category-it-development.html" class="cat-card">
 <div class="cat-card__icon">💻</div>
 <h3>IT & Development</h3>
 <div class="cat-card__count">94 jobs</div>
@@ -64,19 +65,19 @@
 <div class="cat-card__icon">💰</div>
 <h3>Finance & Accounting</h3>
 <div class="cat-card__count">13 jobs</div>
-</a>
-</div>
-<div style="text-align:center;margin-top:24px"><a href="categories.html" class="btn btn--outline">View All Categories →</a></div>
+</a></div>
+<div style="text-align:center;margin-top:24px"><a href="categories.html" class="btn btn--ghost">All Categories →</a></div>
 </div>
 </section>
 
 <section class="section section--alt">
-<div class="wrap">
+<div class="container">
+<div class="section__head">
 <h2>Latest Remote Jobs</h2>
-<p class="section__lead">The newest opportunities from companies hiring South Africans right now.</p>
-<div class="job-grid">
-<a href="jobs.html" class="job-card">
-<div class="job-card__header">
+<p>The newest opportunities from companies hiring South Africans right now.</p>
+</div>
+<div class="job-grid"><a href="jobs.html" class="job-card">
+<div class="job-card__top">
 <div class="job-card__logo">T</div>
 <div>
 <div class="job-card__title">Senior Python Developer</div>
@@ -84,18 +85,17 @@
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Cape Town</span>
-<span>💼 Full-time</span>
+<span>📍 Cape Town</span><span>💼 Full-time</span>
 </div>
 <div class="job-card__tags"><span class="job-card__tag">Python</span><span class="job-card__tag">Django</span><span class="job-card__tag">AWS</span></div>
 <div class="job-card__salary">💰 R70,000 – R90,000/mo</div>
-<div class="job-card__desc">Join South Africa's largest online retailer. Build scalable backend services handling millions of requests daily.</div>
+<div class="job-card__desc">Join South Africa's largest online retailer building the backend services that handle millions of requests daily.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">2 days ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>2 days ago</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
 </a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
+<div class="job-card__top">
 <div class="job-card__logo">A</div>
 <div>
 <div class="job-card__title">Customer Support Agent</div>
@@ -103,18 +103,17 @@
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Remote (SA)</span>
-<span>💼 Full-time</span>
+<span>📍 Remote (SA)</span><span>💼 Full-time</span>
 </div>
-<div class="job-card__tags"><span class="job-card__tag">English</span><span class="job-card__tag">Phone Support</span><span class="job-card__tag">Chat</span></div>
+<div class="job-card__tags"><span class="job-card__tag">English</span><span class="job-card__tag">Phone</span><span class="job-card__tag">Chat</span></div>
 <div class="job-card__salary">💰 R12,000 – R18,000/mo</div>
-<div class="job-card__desc">Provide world-class support to Amazon customers. Work from home with full training provided.</div>
+<div class="job-card__desc">Provide support to Amazon customers worldwide. Equipment provided, full training, work from anywhere in SA.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">1 day ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>1 day ago</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
 </a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
+<div class="job-card__top">
 <div class="job-card__logo">O</div>
 <div>
 <div class="job-card__title">Digital Marketing Manager</div>
@@ -122,18 +121,17 @@
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Johannesburg</span>
-<span>💼 Full-time</span>
+<span>📍 Johannesburg</span><span>💼 Full-time</span>
 </div>
 <div class="job-card__tags"><span class="job-card__tag">SEO</span><span class="job-card__tag">PPC</span><span class="job-card__tag">Content</span></div>
 <div class="job-card__salary">💰 R45,000 – R60,000/mo</div>
-<div class="job-card__desc">Lead marketing strategy for a fast-growing tech talent marketplace. Remote-friendly with monthly Joburg meetups.</div>
+<div class="job-card__desc">Lead marketing at SA's top tech talent marketplace. Remote-friendly with monthly team meetups in Joburg.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">3 days ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>3 days ago</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
 </a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
+<div class="job-card__top">
 <div class="job-card__logo">Y</div>
 <div>
 <div class="job-card__title">Frontend Developer (React)</div>
@@ -141,18 +139,17 @@
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Cape Town</span>
-<span>💼 Full-time</span>
+<span>📍 Cape Town</span><span>💼 Full-time</span>
 </div>
 <div class="job-card__tags"><span class="job-card__tag">React</span><span class="job-card__tag">TypeScript</span><span class="job-card__tag">Next.js</span></div>
 <div class="job-card__salary">💰 R55,000 – R75,000/mo</div>
-<div class="job-card__desc">Build merchant-facing products for SA's leading fintech. Remote with optional office days.</div>
+<div class="job-card__desc">Build merchant-facing products used by thousands of small businesses across South Africa.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">Today</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>Today</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
 </a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
+<div class="job-card__top">
 <div class="job-card__logo">B</div>
 <div>
 <div class="job-card__title">Virtual Assistant</div>
@@ -160,18 +157,17 @@
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Remote (SA)</span>
-<span>💼 Part-time</span>
+<span>📍 Remote (SA)</span><span>💼 Part-time</span>
 </div>
 <div class="job-card__tags"><span class="job-card__tag">Admin</span><span class="job-card__tag">Email</span><span class="job-card__tag">Calendar</span></div>
 <div class="job-card__salary">💰 R8,000 – R12,000/mo</div>
-<div class="job-card__desc">Support international clients with scheduling, email management, and data organisation.</div>
+<div class="job-card__desc">Support international clients with scheduling, inbox management, and research. Flexible hours.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">5 days ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>5 days ago</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
 </a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
+<div class="job-card__top">
 <div class="job-card__logo">L</div>
 <div>
 <div class="job-card__title">UX Designer</div>
@@ -179,28 +175,27 @@
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Remote (SA)</span>
-<span>💼 Full-time</span>
+<span>📍 Remote (SA)</span><span>💼 Full-time</span>
 </div>
-<div class="job-card__tags"><span class="job-card__tag">Figma</span><span class="job-card__tag">User Research</span><span class="job-card__tag">Design Systems</span></div>
+<div class="job-card__tags"><span class="job-card__tag">Figma</span><span class="job-card__tag">Research</span><span class="job-card__tag">Design Systems</span></div>
 <div class="job-card__salary">💰 R50,000 – R70,000/mo</div>
-<div class="job-card__desc">Shape the experience of Africa's leading crypto platform. Design for millions of users across 40+ countries.</div>
+<div class="job-card__desc">Design for Africa's leading crypto platform, serving millions of users across 40+ countries.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">1 week ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>1 week ago</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
-</a>
-</div>
-<div style="text-align:center;margin-top:24px"><a href="jobs.html" class="btn">View All 212 Jobs →</a></div>
+</a></div>
+<div style="text-align:center;margin-top:28px"><a href="jobs.html" class="btn btn--primary">View All 212 Jobs →</a></div>
 </div>
 </section>
 
 <section class="section">
-<div class="wrap">
+<div class="container">
+<div class="section__head">
 <h2>Jobs by City</h2>
-<p class="section__lead">Browse remote jobs available in major South African cities.</p>
-<div class="city-grid">
-<a href="city-cape-town.html" class="city-card">
+<p>Remote work is available across South Africa. Browse by city to find opportunities near you.</p>
+</div>
+<div class="city-grid"><a href="city-cape-town.html" class="city-card">
 <span class="city-card__name">Cape Town</span>
 <span class="city-card__count">78 jobs</span>
 </a><a href="city-johannesburg.html" class="city-card">
@@ -227,84 +222,78 @@
 </a><a href="city-remote-anywhere.html" class="city-card">
 <span class="city-card__name">Remote (Anywhere)</span>
 <span class="city-card__count">42 jobs</span>
-</a>
-</div>
-<div style="text-align:center;margin-top:24px"><a href="cities.html" class="btn btn--outline">All Cities →</a></div>
+</a></div>
+<div style="text-align:center;margin-top:20px"><a href="cities.html" class="btn btn--ghost">All Cities →</a></div>
 </div>
 </section>
 
-<section class="section section--alt">
-<div class="wrap">
-<h2>Why SA Remote Jobs?</h2>
-<p class="section__lead">We built this because finding legitimate remote work as a South African is frustrating — most global boards are full of US-only listings.</p>
-<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px;margin-top:28px">
-<div style="padding:20px;border:1px solid var(--line);border-radius:var(--radius);background:#fff">
-<h3>🇿🇦 SA-First Curation</h3>
-<p style="color:var(--ink-soft);font-size:.92rem">Every job is verified to accept South African applicants. No wasting time on US-only or EU-only listings.</p>
+<section class="section section--dark">
+<div class="container">
+<div class="section__head"><h2>Why We Built This</h2></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px">
+<div style="padding:24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius)">
+<h3 style="color:#fff">🇿🇦 Every Job Verified for SA</h3>
+<p style="color:rgba(255,255,255,0.7);font-size:0.94rem">Most global job boards are full of US-only and EU-only positions. We check every listing to confirm it accepts South African applicants — so you never waste time applying to the wrong jobs.</p>
 </div>
-<div style="padding:20px;border:1px solid var(--line);border-radius:var(--radius);background:#fff">
-<h3>🔓 No Account Needed</h3>
-<p style="color:var(--ink-soft);font-size:.92rem">Browse and apply without creating an account. We link directly to the employer's application page.</p>
+<div style="padding:24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius)">
+<h3 style="color:#fff">🔓 No Sign-Up, No Paywall</h3>
+<p style="color:rgba(255,255,255,0.7);font-size:0.94rem">Browse, search, and apply without creating an account. We link directly to the employer's application page. Finding a job shouldn't require another password to remember.</p>
 </div>
-<div style="padding:20px;border:1px solid var(--line);border-radius:var(--radius);background:#fff">
-<h3>🔄 Updated Daily</h3>
-<p style="color:var(--ink-soft);font-size:.92rem">Fresh listings every morning. Expired jobs removed within 24 hours. No ghost listings.</p>
+<div style="padding:24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius)">
+<h3 style="color:#fff">📅 Fresh Every Morning</h3>
+<p style="color:rgba(255,255,255,0.7);font-size:0.94rem">We refresh listings daily — new jobs added, expired ones removed. What you see is what's actually available right now, not a graveyard of three-month-old postings.</p>
 </div>
-<div style="padding:20px;border:1px solid var(--line);border-radius:var(--radius);background:#fff">
-<h3>💰 Salary Transparency</h3>
-<p style="color:var(--ink-soft);font-size:.92rem">We show salary ranges whenever available. Know what to expect before you apply.</p>
+<div style="padding:24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius)">
+<h3 style="color:#fff">💰 Real Salary Ranges</h3>
+<p style="color:rgba(255,255,255,0.7);font-size:0.94rem">We show salary information whenever the employer provides it. No more guessing what a role pays or discovering the range only after three interviews.</p>
 </div>
 </div>
 </div>
 </section>
 
 <section class="section">
-<div class="wrap">
-<h2>Frequently Asked Questions</h2>
-<p class="section__lead">Everything you need to know about finding remote work as a South African.</p>
+<div class="container">
+<div class="section__head"><h2>Frequently Asked Questions</h2></div>
 <div class="faq">
-<details><summary>Are these jobs really available to South Africans?</summary><p>Yes. Every listing is verified to accept applicants based in South Africa. We check location requirements before adding any job.</p></details><details><summary>Do I need to create an account to apply?</summary><p>No. Each listing links directly to the employer's application page. You apply the same way you normally would — we just help you find the right opportunities.</p></details><details><summary>How often are new jobs added?</summary><p>Daily. We scan multiple sources every morning and add fresh listings. Expired positions are removed within 24 hours.</p></details><details><summary>What salary can I expect for remote jobs in SA?</summary><p>Entry-level: R8,000–R15,000/mo. Mid-level: R15,000–R40,000/mo. Senior/tech: R40,000–R100,000+/mo. International companies often pay more.</p></details><details><summary>Can I get a remote job with no experience?</summary><p>Yes — look for entry-level data entry, customer service, and virtual assistant roles. Many companies provide full training.</p></details><details><summary>How do I get my company's jobs listed here?</summary><p>Contact us at hello@saremotejobs.co.za. Employer listings start at R349 per post.</p></details><details><summary>What equipment do I need for remote work?</summary><p>Most roles require a reliable laptop, stable internet (10+ Mbps), and a quiet workspace. Some companies provide equipment.</p></details><details><summary>Are these jobs permanent or contract?</summary><p>We list both. Each card shows the employment type — full-time, part-time, contract, or freelance.</p></details>
+<details><summary>Are these jobs really available to South Africans?</summary><p>Yes. Every listing on our board is verified to accept applicants based in South Africa. We check location requirements before adding any job. Some positions may require specific work authorization, and we note this where applicable.</p></details><details><summary>Do I need an account to apply?</summary><p>No. Each job listing links directly to the employer's application page. We don't sit between you and the company — we just help you find the right opportunities.</p></details><details><summary>How often are new jobs added?</summary><p>Daily. We scan multiple sources every morning and add fresh listings. Expired positions are removed within 24 hours.</p></details><details><summary>What kind of salary can I expect?</summary><p>Entry-level remote roles typically range from R8,000 to R15,000 per month. Mid-level positions R15,000 to R40,000. Senior and specialized tech roles can reach R40,000 to R100,000+. International companies often pay above local market rates.</p></details><details><summary>Can I get a remote job with no experience?</summary><p>Yes. Look for entry-level data entry, customer service, and virtual assistant roles. Many companies provide full training. What matters most is reliability, good internet, and willingness to learn.</p></details><details><summary>What equipment do I need?</summary><p>Most roles require a reliable laptop (not just a phone), stable internet of at least 10 Mbps, and a quiet workspace. Some companies provide equipment; others expect you to have your own.</p></details><details><summary>How do I get my company's jobs listed?</summary><p>Email us at hello@saremotejobs.co.za. Employer listings start at R349 per post, with discounts for bulk. We review every submission to ensure it's a legitimate opportunity.</p></details><details><summary>Is remote work legal in South Africa?</summary><p>Yes. Remote work is fully legal and increasingly common. Many SA companies adopted hybrid or fully remote policies after 2020, and the trend continues to grow.</p></details>
 </div>
 </div>
 </section>
 
-<section class="cta">
-<div class="wrap">
-<h2>Ready to Find Your Next Remote Job?</h2>
-<p>Browse 212+ positions from 87+ companies hiring South Africans.</p>
-<a href="jobs.html" class="btn btn--lg">Browse All Jobs →</a>
+<section class="section section--dark" style="text-align:center">
+<div class="container">
+<h2 style="font-size:2rem;margin-bottom:12px">Ready to Find Your Next Job?</h2>
+<p style="color:rgba(255,255,255,0.7);font-size:1.05rem;margin-bottom:24px">Browse 212+ positions from 87+ companies.</p>
+<a href="jobs.html" class="btn btn--primary btn--lg">Browse All Jobs →</a>
 </div>
 </section>
 
-<footer class="site-footer">
-<div class="wrap">
-<div class="footer-grid">
+<footer class="footer">
+<div class="container">
+<div class="footer__grid">
 <div>
 <h4>SA Remote Jobs</h4>
-<p>Connecting South Africans with legitimate remote work. Every job verified to hire SA residents.</p>
+<p>Connecting South Africans with legitimate remote work opportunities. Every job on our board accepts applicants based in South Africa.</p>
 </div>
 <div>
 <h4>Browse</h4>
-<ul>
-<li><a href="jobs.html">All Jobs</a></li>
-<li><a href="categories.html">Categories</a></li>
-<li><a href="cities.html">Cities</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="faq.html">FAQ</a></li>
-</ul>
+<ul><li><a href="jobs.html">All Jobs</a></li><li><a href="categories.html">Categories</a></li><li><a href="cities.html">Cities</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li></ul>
 </div>
 <div>
 <h4>Categories</h4>
-<ul>
-<li><a href="category-it-development.html">IT & Development</a></li><li><a href="category-marketing-sales.html">Marketing & Sales</a></li><li><a href="category-customer-service.html">Customer Service</a></li><li><a href="category-data-entry-admin.html">Data Entry & Admin</a></li><li><a href="category-design-creative.html">Design & Creative</a></li><li><a href="category-finance-accounting.html">Finance & Accounting</a></li>
-</ul>
+<ul><li><a href="category-it-development.html">IT & Development</a></li>
+<li><a href="category-marketing-sales.html">Marketing & Sales</a></li>
+<li><a href="category-customer-service.html">Customer Service</a></li>
+<li><a href="category-data-entry-admin.html">Data Entry & Admin</a></li>
+<li><a href="category-design-creative.html">Design & Creative</a></li>
+<li><a href="category-finance-accounting.html">Finance & Accounting</a></li></ul>
 </div>
 <div>
 <h4>Contact</h4>
-<p>Email: <a href="mailto:hello@saremotejobs.co.za">hello@saremotejobs.co.za</a></p>
+<p><a href="mailto:hello@saremotejobs.co.za">hello@saremotejobs.co.za</a></p>
 </div>
 </div>
-<div class="footer-bottom">&copy; 2026 SA Remote Jobs. All rights reserved.</div>
+<div class="footer__bottom">&copy; 2026 SA Remote Jobs. All rights reserved.</div>
 </div>
 </footer>
 <script src="assets/main.js"></script>

@@ -4,70 +4,50 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Remote Jobs in Port Elizabeth — Work From Home | SA Remote Jobs</title>
-<meta name="description" content="Find remote jobs available in Port Elizabeth. Browse work-from-home positions from companies hiring in Port Elizabeth, South Africa. Updated daily.">
+<meta name="description" content="Find remote jobs available in Port Elizabeth. Browse work-from-home positions from companies hiring in Port Elizabeth, South Africa.">
 <link rel="canonical" href="https://saremotejobs.co.za/city-port-elizabeth.html">
 <meta name="robots" content="all">
-<meta name="theme-color" content="#0D9488">
+<meta name="theme-color" content="#533afd">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 
 </head>
 <body>
-<header class="site-header">
-<nav class="nav">
-<a href="index.html" class="nav__brand">🇿🇦 <span>SA</span> Remote Jobs</a>
-<button class="nav__toggle" id="navtoggle" aria-label="Menu">☰</button>
-<ul class="nav__links" id="navlinks"><li><aindex.html="">Home</a></li><li><ajobs.html="">Browse Jobs</a></li><li><acategories.html="">Categories</a></li><li><acities.html="">Cities</a></li><li><aabout.html="">About</a></li><li><a href="contact.html" class="nav__post">Post a Job</a></li></ul>
-</nav>
+<header class="header">
+<div class="header__inner">
+<a href="index.html" class="header__brand">🇿🇦 <span>SA</span> Remote Jobs</a>
+<button class="header__toggle" id="navtoggle" aria-label="Menu">☰</button>
+<ul class="header__nav" id="navlinks"><li><a href="index.html" class="">Home</a></li>
+<li><a href="jobs.html" class="">Browse Jobs</a></li>
+<li><a href="categories.html" class="">Categories</a></li>
+<li><a href="cities.html" class="">Cities</a></li>
+<li><a href="about.html" class="">About</a></li><li><a href="contact.html" class="btn btn--primary" style="margin-left:8px;font-size:0.85rem;padding:8px 16px">Post a Job</a></li></ul>
+</div>
 </header>
 <section class="hero">
-<div class="hero__inner">
+<div class="container">
 <div class="hero__badge">🇿🇦 South Africa's Remote Job Board</div>
 <h1>Remote Jobs in South Africa</h1>
-<p>Find legitimate work-from-home jobs from companies that hire South Africans. No sign-up needed — just search and apply.</p>
+<p>Browse remote jobs available to professionals in Port Elizabeth.</p>
 <div class="hero__search">
-<input type="text" placeholder="Search jobs in Port Elizabeth..." id="heroSearch">
+<input type="text" placeholder="Search by role, skill, or company..." id="heroSearch">
 <button onclick="window.location.href='jobs.html?search='+encodeURIComponent(document.getElementById('heroSearch').value)">Search Jobs</button>
-</div>
-<div class="hero__stats">
-<div><strong>212+</strong> remote jobs</div>
-<div><strong>87+</strong> companies hiring</div>
-<div><strong>Daily</strong> new listings</div>
 </div>
 </div>
 </section>
 <section class="section">
-<div class="wrap">
-<h1 style="font-family:var(--font-display);font-size:2rem">Remote Jobs in Port Elizabeth</h1>
-<p class="section__lead">Work-from-home positions available to Port Elizabeth residents. Skip the traffic — work remotely.</p>
-<div class="filter-bar">
-<select onchange="window.location=this.value">
+<div class="container">
+<h1 style="font-size:2rem;margin-bottom:16px">Remote Jobs in Port Elizabeth</h1>
+<div class="prose" style="margin-bottom:32px">
+<p>Skip the traffic and work from home. These remote positions are available to Port Elizabeth residents — whether you're in the city centre or the suburbs.</p>
+<p>While these are work-from-home roles, some companies prefer candidates in specific cities for occasional in-person meetings or timezone alignment. Each listing specifies any location requirements.</p>
+</div>
+<div class="filter-bar"><select onchange="if(this.value)window.location=this.value">
 <option value="">All Categories</option>
-<option value="category-it-development.html">IT & Development</option><option value="category-marketing-sales.html">Marketing & Sales</option><option value="category-customer-service.html">Customer Service</option><option value="category-data-entry-admin.html">Data Entry & Admin</option><option value="category-design-creative.html">Design & Creative</option><option value="category-finance-accounting.html">Finance & Accounting</option>
-</select>
-<span class="filter-count">10 jobs in Port Elizabeth</span>
-</div>
-<div class="job-grid">
-<a href="jobs.html" class="job-card">
-<div class="job-card__header">
-<div class="job-card__logo">T</div>
-<div>
-<div class="job-card__title">Senior Python Developer</div>
-<div class="job-card__company">Takealot</div>
-</div>
-</div>
-<div class="job-card__meta">
-<span>📍 Cape Town</span>
-<span>💼 Full-time</span>
-</div>
-<div class="job-card__tags"><span class="job-card__tag">Python</span><span class="job-card__tag">Django</span><span class="job-card__tag">AWS</span></div>
-<div class="job-card__salary">💰 R70,000 – R90,000/mo</div>
-<div class="job-card__desc">Join South Africa's largest online retailer. Build scalable backend services handling millions of requests daily.</div>
-<div class="job-card__footer">
-<span class="job-card__posted">2 days ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
-</div>
-</a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
+<option value="category-it-development.html">IT & Development (94)</option><option value="category-marketing-sales.html">Marketing & Sales (38)</option><option value="category-customer-service.html">Customer Service (27)</option><option value="category-data-entry-admin.html">Data Entry & Admin (19)</option><option value="category-design-creative.html">Design & Creative (21)</option><option value="category-finance-accounting.html">Finance & Accounting (13)</option>
+</select>  <span class="filter-count">6 jobs found</span></div>
+<div class="job-grid"><a href="jobs.html" class="job-card">
+<div class="job-card__top">
 <div class="job-card__logo">A</div>
 <div>
 <div class="job-card__title">Customer Support Agent</div>
@@ -75,37 +55,17 @@
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Remote (SA)</span>
-<span>💼 Full-time</span>
+<span>📍 Remote (SA)</span><span>💼 Full-time</span>
 </div>
-<div class="job-card__tags"><span class="job-card__tag">English</span><span class="job-card__tag">Phone Support</span><span class="job-card__tag">Chat</span></div>
+<div class="job-card__tags"><span class="job-card__tag">English</span><span class="job-card__tag">Phone</span><span class="job-card__tag">Chat</span></div>
 <div class="job-card__salary">💰 R12,000 – R18,000/mo</div>
-<div class="job-card__desc">Provide world-class support to Amazon customers. Work from home with full training provided.</div>
+<div class="job-card__desc">Provide support to Amazon customers worldwide. Equipment provided, full training, work from anywhere in SA.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">1 day ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>1 day ago</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
 </a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
-<div class="job-card__logo">Y</div>
-<div>
-<div class="job-card__title">Frontend Developer (React)</div>
-<div class="job-card__company">Yoco</div>
-</div>
-</div>
-<div class="job-card__meta">
-<span>📍 Cape Town</span>
-<span>💼 Full-time</span>
-</div>
-<div class="job-card__tags"><span class="job-card__tag">React</span><span class="job-card__tag">TypeScript</span><span class="job-card__tag">Next.js</span></div>
-<div class="job-card__salary">💰 R55,000 – R75,000/mo</div>
-<div class="job-card__desc">Build merchant-facing products for SA's leading fintech. Remote with optional office days.</div>
-<div class="job-card__footer">
-<span class="job-card__posted">Today</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
-</div>
-</a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
+<div class="job-card__top">
 <div class="job-card__logo">B</div>
 <div>
 <div class="job-card__title">Virtual Assistant</div>
@@ -113,18 +73,17 @@
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Remote (SA)</span>
-<span>💼 Part-time</span>
+<span>📍 Remote (SA)</span><span>💼 Part-time</span>
 </div>
 <div class="job-card__tags"><span class="job-card__tag">Admin</span><span class="job-card__tag">Email</span><span class="job-card__tag">Calendar</span></div>
 <div class="job-card__salary">💰 R8,000 – R12,000/mo</div>
-<div class="job-card__desc">Support international clients with scheduling, email management, and data organisation.</div>
+<div class="job-card__desc">Support international clients with scheduling, inbox management, and research. Flexible hours.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">5 days ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>5 days ago</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
 </a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
+<div class="job-card__top">
 <div class="job-card__logo">L</div>
 <div>
 <div class="job-card__title">UX Designer</div>
@@ -132,18 +91,17 @@
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Remote (SA)</span>
-<span>💼 Full-time</span>
+<span>📍 Remote (SA)</span><span>💼 Full-time</span>
 </div>
-<div class="job-card__tags"><span class="job-card__tag">Figma</span><span class="job-card__tag">User Research</span><span class="job-card__tag">Design Systems</span></div>
+<div class="job-card__tags"><span class="job-card__tag">Figma</span><span class="job-card__tag">Research</span><span class="job-card__tag">Design Systems</span></div>
 <div class="job-card__salary">💰 R50,000 – R70,000/mo</div>
-<div class="job-card__desc">Shape the experience of Africa's leading crypto platform. Design for millions of users across 40+ countries.</div>
+<div class="job-card__desc">Design for Africa's leading crypto platform, serving millions of users across 40+ countries.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">1 week ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>1 week ago</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
 </a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
+<div class="job-card__top">
 <div class="job-card__logo">GS</div>
 <div>
 <div class="job-card__title">Content Writer</div>
@@ -151,18 +109,17 @@
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Remote (SA)</span>
-<span>💼 Contract</span>
+<span>📍 Remote (SA)</span><span>💼 Contract</span>
 </div>
-<div class="job-card__tags"><span class="job-card__tag">Copywriting</span><span class="job-card__tag">Education</span><span class="job-card__tag">SEO</span></div>
+<div class="job-card__tags"><span class="job-card__tag">Copywriting</span><span class="job-card__tag">EdTech</span><span class="job-card__tag">SEO</span></div>
 <div class="job-card__salary">💰 R15,000 – R25,000/mo</div>
-<div class="job-card__desc">Create compelling course descriptions and marketing copy for online education programs.</div>
+<div class="job-card__desc">Write course descriptions and marketing copy for online education programmes. Flexible contract.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">3 days ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>3 days ago</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
 </a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
+<div class="job-card__top">
 <div class="job-card__logo">X</div>
 <div>
 <div class="job-card__title">Bookkeeper</div>
@@ -170,60 +127,36 @@
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Remote (SA)</span>
-<span>💼 Part-time</span>
+<span>📍 Remote (SA)</span><span>💼 Part-time</span>
 </div>
 <div class="job-card__tags"><span class="job-card__tag">Xero</span><span class="job-card__tag">Payroll</span><span class="job-card__tag">SARS</span></div>
 <div class="job-card__salary">💰 R12,000 – R18,000/mo</div>
-<div class="job-card__desc">Manage books for small business clients using Xero. Flexible hours, work from anywhere in SA.</div>
+<div class="job-card__desc">Manage books for small business clients. Flexible schedule, work from anywhere in South Africa.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">6 days ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>6 days ago</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
 </a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
-<div class="job-card__logo">S</div>
+<div class="job-card__top">
+<div class="job-card__logo">D</div>
 <div>
-<div class="job-card__title">Social Media Manager</div>
-<div class="job-card__company">Superbalist</div>
+<div class="job-card__title">QA Tester</div>
+<div class="job-card__company">DVT</div>
 </div>
 </div>
 <div class="job-card__meta">
-<span>📍 Cape Town</span>
-<span>💼 Full-time</span>
+<span>📍 Remote (SA)</span><span>💼 Full-time</span>
 </div>
-<div class="job-card__tags"><span class="job-card__tag">Instagram</span><span class="job-card__tag">TikTok</span><span class="job-card__tag">Fashion</span></div>
-<div class="job-card__salary">💰 R25,000 – R35,000/mo</div>
-<div class="job-card__desc">Own social strategy for SA's top fashion e-commerce brand. Create content, manage community, drive engagement.</div>
+<div class="job-card__tags"><span class="job-card__tag">Selenium</span><span class="job-card__tag">Manual</span><span class="job-card__tag">Agile</span></div>
+<div class="job-card__salary">💰 R35,000 – R50,000/mo</div>
+<div class="job-card__desc">Ensure quality across web and mobile apps for enterprise clients. ISTQB preferred.</div>
 <div class="job-card__footer">
-<span class="job-card__posted">2 days ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
+<span>3 days ago</span>
+<span style="color:var(--brand);font-weight:500">Apply →</span>
 </div>
-</a><a href="jobs.html" class="job-card">
-<div class="job-card__header">
-<div class="job-card__logo">W</div>
-<div>
-<div class="job-card__title">Graphic Designer</div>
-<div class="job-card__company">Woolworths</div>
-</div>
-</div>
-<div class="job-card__meta">
-<span>📍 Cape Town</span>
-<span>💼 Full-time</span>
-</div>
-<div class="job-card__tags"><span class="job-card__tag">Adobe Suite</span><span class="job-card__tag">Branding</span><span class="job-card__tag">Retail</span></div>
-<div class="job-card__salary">💰 R30,000 – R42,000/mo</div>
-<div class="job-card__desc">Create visual assets for one of SA's most iconic brands. Digital and print design across multiple campaigns.</div>
-<div class="job-card__footer">
-<span class="job-card__posted">4 days ago</span>
-<span class="job-card__apply" style="color:var(--brand);font-weight:600">Apply Now →</span>
-</div>
-</a>
-</div>
-<div style="margin-top:28px">
-<h3 style="margin-bottom:12px">Other Cities</h3>
-<div class="city-grid">
-<a href="city-cape-town.html" class="city-card">
+</a></div>
+<div style="margin-top:28px"><h3 style="margin-bottom:14px">Other Cities</h3>
+<div class="city-grid"><a href="city-cape-town.html" class="city-card">
 <span class="city-card__name">Cape Town</span>
 <span class="city-card__count">78 jobs</span>
 </a><a href="city-johannesburg.html" class="city-card">
@@ -247,40 +180,35 @@
 </a><a href="city-remote-anywhere.html" class="city-card">
 <span class="city-card__name">Remote (Anywhere)</span>
 <span class="city-card__count">42 jobs</span>
-</a>
-</div>
-</div>
+</a></div></div>
 </div>
 </section>
-<footer class="site-footer">
-<div class="wrap">
-<div class="footer-grid">
+<footer class="footer">
+<div class="container">
+<div class="footer__grid">
 <div>
 <h4>SA Remote Jobs</h4>
-<p>Connecting South Africans with legitimate remote work. Every job verified to hire SA residents.</p>
+<p>Connecting South Africans with legitimate remote work opportunities. Every job on our board accepts applicants based in South Africa.</p>
 </div>
 <div>
 <h4>Browse</h4>
-<ul>
-<li><a href="jobs.html">All Jobs</a></li>
-<li><a href="categories.html">Categories</a></li>
-<li><a href="cities.html">Cities</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="faq.html">FAQ</a></li>
-</ul>
+<ul><li><a href="jobs.html">All Jobs</a></li><li><a href="categories.html">Categories</a></li><li><a href="cities.html">Cities</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li></ul>
 </div>
 <div>
 <h4>Categories</h4>
-<ul>
-<li><a href="category-it-development.html">IT & Development</a></li><li><a href="category-marketing-sales.html">Marketing & Sales</a></li><li><a href="category-customer-service.html">Customer Service</a></li><li><a href="category-data-entry-admin.html">Data Entry & Admin</a></li><li><a href="category-design-creative.html">Design & Creative</a></li><li><a href="category-finance-accounting.html">Finance & Accounting</a></li>
-</ul>
+<ul><li><a href="category-it-development.html">IT & Development</a></li>
+<li><a href="category-marketing-sales.html">Marketing & Sales</a></li>
+<li><a href="category-customer-service.html">Customer Service</a></li>
+<li><a href="category-data-entry-admin.html">Data Entry & Admin</a></li>
+<li><a href="category-design-creative.html">Design & Creative</a></li>
+<li><a href="category-finance-accounting.html">Finance & Accounting</a></li></ul>
 </div>
 <div>
 <h4>Contact</h4>
-<p>Email: <a href="mailto:hello@saremotejobs.co.za">hello@saremotejobs.co.za</a></p>
+<p><a href="mailto:hello@saremotejobs.co.za">hello@saremotejobs.co.za</a></p>
 </div>
 </div>
-<div class="footer-bottom">&copy; 2026 SA Remote Jobs. All rights reserved.</div>
+<div class="footer__bottom">&copy; 2026 SA Remote Jobs. All rights reserved.</div>
 </div>
 </footer>
 <script src="assets/main.js"></script>
