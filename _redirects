@@ -1,0 +1,23 @@
+# Sprint 0 redirects — doorway pages → cities, duplicate categories → canonical
+/remote-job-board-in-bloemfontein.html /cities.html 301
+/remote-job-board-in-cape-town.html /cities.html 301
+/remote-job-board-in-durban.html /cities.html 301
+/remote-job-board-in-east-london.html /cities.html 301
+/remote-job-board-in-johannesburg.html /cities.html 301
+/remote-job-board-in-kimberley.html /cities.html 301
+/remote-job-board-in-nelspruit.html /cities.html 301
+/remote-job-board-in-polokwane.html /cities.html 301
+/remote-job-board-in-port-elizabeth.html /cities.html 301
+/remote-job-board-in-pretoria.html /cities.html 301
+/remote-job-board-in-rustenburg.html /cities.html 301
+/remote-job-board-in-stellenbosch.html /cities.html 301
+
+/customer-service.html /category-customer-service.html 301
+/data-entry-and-admin.html /category-ai-data-training.html 301
+/design-and-creative.html /category-design-creative.html 301
+/finance-and-accounting.html /category-finance-accounting.html 301
+/it-and-development.html /category-it-development.html 301
+/marketing-and-sales.html /category-marketing-sales.html 301
+/service-areas.html /categories.html 301
+/services.html /categories.html 301
+/accessibility.html /about.html 301
