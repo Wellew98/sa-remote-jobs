@@ -56,6 +56,7 @@ h1{font-size:2.5rem;letter-spacing:-0.02em;font-weight:500}h2{font-size:1.75rem;
 .job-card__view{color:var(--brand);font-weight:500;white-space:nowrap}
 /* company cards — 3 columns desktop */
 .company-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.company-grid--4{grid-template-columns:repeat(4,1fr)}
 .company-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;display:flex;align-items:center;gap:14px;transition:all .15s;box-shadow:var(--shadow-black) 0px 1px 3px}
 .company-card:hover{border-color:var(--brand-light);box-shadow:var(--shadow-blue) 0px 15px 25px -15px,var(--shadow-black) 0px 6px 12px -6px;transform:translateY(-1px)}
 .company-card__logo-wrap{width:48px;height:48px;border-radius:10px;background:#fff;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;overflow:hidden;flex-shrink:0}
