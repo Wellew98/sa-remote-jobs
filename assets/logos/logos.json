@@ -1,0 +1,72 @@
+{
+  "ethos": {
+    "file": "ethos.png",
+    "w": 64,
+    "h": 64
+  },
+  "vetto": {
+    "file": "vetto.svg",
+    "w": 256,
+    "h": 256
+  },
+  "afterquery": {
+    "file": "afterquery.png",
+    "w": 192,
+    "h": 192
+  },
+  "sme-careers": {
+    "file": "sme-careers.png",
+    "w": 27,
+    "h": 20
+  },
+  "turing": {
+    "file": "turing.svg",
+    "w": 256,
+    "h": 256
+  },
+  "braintrust": {
+    "file": "braintrust.png",
+    "w": 2000,
+    "h": 2000
+  },
+  "remoexperts": {
+    "file": "remoexperts.ico",
+    "w": 256,
+    "h": 256
+  },
+  "infuse": {
+    "file": "infuse.ico",
+    "w": 256,
+    "h": 256
+  },
+  "micro1": {
+    "file": "micro1.png",
+    "w": 256,
+    "h": 256
+  },
+  "5ca": {
+    "file": "5ca.png",
+    "w": 192,
+    "h": 192
+  },
+  "alx-africa": {
+    "file": "alx-africa.png",
+    "w": 192,
+    "h": 192
+  },
+  "lionbridge": {
+    "file": "lionbridge.png",
+    "w": 16,
+    "h": 16
+  },
+  "virtuhire": {
+    "file": "virtuhire.png",
+    "w": 27,
+    "h": 32
+  },
+  "mercor": {
+    "file": "mercor.png",
+    "w": 256,
+    "h": 256
+  }
+}
