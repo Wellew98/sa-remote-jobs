@@ -59,4 +59,7 @@ h1{font-size:2.5rem;letter-spacing:-0.02em}h2{font-size:1.75rem;letter-spacing:-
 .footer__grid ul{list-style:none}.footer__grid li{margin-bottom:8px}
 .footer__grid a{color:rgba(255,255,255,0.5);font-size:0.88rem}.footer__grid a:hover{color:#fff}
 .footer__bottom{border-top:1px solid rgba(255,255,255,0.08);text-align:center;padding:20px 0;font-size:0.82rem}
-@media(max-width:768px){.footer__grid{grid-template-columns:1fr}.job-grid{grid-template-columns:1fr}}
+.header__toggle{display:none;background:none;border:none;cursor:pointer;color:var(--heading);padding:4px}
+.header__toggle svg{display:block}
+@media(max-width:768px){
+.header__toggle{display:block}.footer__grid{grid-template-columns:1fr}.job-grid{grid-template-columns:1fr}}
