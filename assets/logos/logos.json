@@ -11,8 +11,8 @@
   },
   "afterquery": {
     "file": "afterquery.png",
-    "w": 192,
-    "h": 192
+    "w": 180,
+    "h": 180
   },
   "sme-careers": {
     "file": "sme-careers.png",
@@ -41,8 +41,8 @@
   },
   "micro1": {
     "file": "micro1.png",
-    "w": 256,
-    "h": 256
+    "w": 32,
+    "h": 32
   },
   "5ca": {
     "file": "5ca.png",
@@ -66,6 +66,660 @@
   },
   "mercor": {
     "file": "mercor.png",
+    "w": 256,
+    "h": 256
+  },
+  "impact-clients": {
+    "file": "impact-clients.webp",
+    "w": 62509,
+    "h": 24063
+  },
+  "intellect": {
+    "file": "intellect.png",
+    "w": 192,
+    "h": 192
+  },
+  "findev-canada": {
+    "file": "findev-canada.png",
+    "w": 32,
+    "h": 32
+  },
+  "raspberry-pi-foundation": {
+    "file": "raspberry-pi-foundation.png",
+    "w": 100,
+    "h": 100
+  },
+  "trade-nation": {
+    "file": "trade-nation.png",
+    "w": 180,
+    "h": 180
+  },
+  "law-offices-of-sabrina-li": {
+    "file": "law-offices-of-sabrina-li.png",
+    "w": 256,
+    "h": 256
+  },
+  "naked-wines": {
+    "file": "naked-wines.svg",
+    "w": 256,
+    "h": 256
+  },
+  "zeal-group": {
+    "file": "zeal-group.png",
+    "w": 400,
+    "h": 400
+  },
+  "optasia": {
+    "file": "optasia.png",
+    "w": 150,
+    "h": 150
+  },
+  "tydeco": {
+    "file": "tydeco.png",
+    "w": 40,
+    "h": 40
+  },
+  "genesis-analytics": {
+    "file": "genesis-analytics.png",
+    "w": 193,
+    "h": 183
+  },
+  "opsfi": {
+    "file": "opsfi.png",
+    "w": 256,
+    "h": 256
+  },
+  "elvtr": {
+    "file": "elvtr.ico",
+    "w": 128,
+    "h": 128
+  },
+  "huble": {
+    "file": "huble.png",
+    "w": 540,
+    "h": 540
+  },
+  "optimal-group": {
+    "file": "optimal-group.png",
+    "w": 80,
+    "h": 80
+  },
+  "african-safari-group": {
+    "file": "african-safari-group.webp",
+    "w": 17408,
+    "h": 0
+  },
+  "shadow-light-studios": {
+    "file": "shadow-light-studios.png",
+    "w": 256,
+    "h": 256
+  },
+  "sap-fioneer": {
+    "file": "sap-fioneer.png",
+    "w": 32,
+    "h": 32
+  },
+  "volga-partners": {
+    "file": "volga-partners.png",
+    "w": 400,
+    "h": 400
+  },
+  "rho-inc": {
+    "file": "rho-inc.png",
+    "w": 192,
+    "h": 192
+  },
+  "the-really-great-teacher-company": {
+    "file": "the-really-great-teacher-company.png",
+    "w": 180,
+    "h": 180
+  },
+  "ten-group": {
+    "file": "ten-group.png",
+    "w": 256,
+    "h": 256
+  },
+  "autism-parenting-magazine": {
+    "file": "autism-parenting-magazine.png",
+    "w": 96,
+    "h": 96
+  },
+  "remote-recruitment": {
+    "file": "remote-recruitment.png",
+    "w": 32,
+    "h": 32
+  },
+  "remote-raven": {
+    "file": "remote-raven.webp",
+    "w": 28086,
+    "h": 2267
+  },
+  "remote-talent-latam": {
+    "file": "remote-talent-latam.png",
+    "w": 192,
+    "h": 192
+  },
+  "remote-talent-cloud": {
+    "file": "remote-talent-cloud.png",
+    "w": 192,
+    "h": 192
+  },
+  "acuity-insights": {
+    "file": "acuity-insights.png",
+    "w": 55,
+    "h": 51
+  },
+  "doctor-care-anywhere": {
+    "file": "doctor-care-anywhere.svg",
+    "w": 256,
+    "h": 256
+  },
+  "proficio": {
+    "file": "proficio.png",
+    "w": 256,
+    "h": 256
+  },
+  "plain-concepts": {
+    "file": "plain-concepts.webp",
+    "w": 7936,
+    "h": 0
+  },
+  "ksisters": {
+    "file": "ksisters.png",
+    "w": 180,
+    "h": 243
+  },
+  "cloudlinux": {
+    "file": "cloudlinux.png",
+    "w": 192,
+    "h": 192
+  },
+  "chemin": {
+    "file": "chemin.ico",
+    "w": 256,
+    "h": 256
+  },
+  "dane-street-llc": null,
+  "apna": {
+    "file": "apna.png",
+    "w": 256,
+    "h": 256
+  },
+  "valard-construction": {
+    "file": "valard-construction.png",
+    "w": 32,
+    "h": 32
+  },
+  "cps": {
+    "file": "cps.svg",
+    "w": 256,
+    "h": 256
+  },
+  "regex-seo": {
+    "file": "regex-seo.png",
+    "w": 16,
+    "h": 16
+  },
+  "greenvolt": null,
+  "utilisave-llc": {
+    "file": "utilisave-llc.svg",
+    "w": 256,
+    "h": 256
+  },
+  "fulfillment-iq": {
+    "file": "fulfillment-iq.png",
+    "w": 192,
+    "h": 192
+  },
+  "union-of-concerned-scientists": {
+    "file": "union-of-concerned-scientists.ico",
+    "w": 48,
+    "h": 48
+  },
+  "lifemd": {
+    "file": "lifemd.png",
+    "w": 180,
+    "h": 180
+  },
+  "keywords-studios": {
+    "file": "keywords-studios.ico",
+    "w": 48,
+    "h": 48
+  },
+  "liberty-music-pr": {
+    "file": "liberty-music-pr.png",
+    "w": 256,
+    "h": 256
+  },
+  "dof": {
+    "file": "dof.png",
+    "w": 256,
+    "h": 256
+  },
+  "renewable-concepts": {
+    "file": "renewable-concepts.png",
+    "w": 256,
+    "h": 256
+  },
+  "crncy-group": {
+    "file": "crncy-group.png",
+    "w": 256,
+    "h": 256
+  },
+  "interactive-strategies": {
+    "file": "interactive-strategies.ico",
+    "w": 32,
+    "h": 32
+  },
+  "isupport-worldwide": {
+    "file": "isupport-worldwide.ico",
+    "w": 48,
+    "h": 48
+  },
+  "epay-a-euronet-worldwide-company": {
+    "file": "epay-a-euronet-worldwide-company.png",
+    "w": 256,
+    "h": 256
+  },
+  "euronet-worldwide-inc": {
+    "file": "euronet-worldwide-inc.png",
+    "w": 256,
+    "h": 256
+  },
+  "tyk-technologies": null,
+  "airs-medical-inc": {
+    "file": "airs-medical-inc.ico",
+    "w": 256,
+    "h": 256
+  },
+  "remotepass": {
+    "file": "remotepass.png",
+    "w": 192,
+    "h": 192
+  },
+  "nuvei": {
+    "file": "nuvei.png",
+    "w": 256,
+    "h": 256
+  },
+  "quona-capital": {
+    "file": "quona-capital.png",
+    "w": 192,
+    "h": 192
+  },
+  "intuition-machines-inc": {
+    "file": "intuition-machines-inc.png",
+    "w": 256,
+    "h": 256
+  },
+  "hugging-face": {
+    "file": "hugging-face.ico",
+    "w": 256,
+    "h": 256
+  },
+  "cupix": {
+    "file": "cupix.png",
+    "w": 256,
+    "h": 256
+  },
+  "digitalgenius": {
+    "file": "digitalgenius.png",
+    "w": 414,
+    "h": 414
+  },
+  "genetec": {
+    "file": "genetec.png",
+    "w": 180,
+    "h": 180
+  },
+  "laravel": {
+    "file": "laravel.svg",
+    "w": 256,
+    "h": 256
+  },
+  "hsi": {
+    "file": "hsi.png",
+    "w": 120,
+    "h": 120
+  },
+  "360dialog-gmbh": {
+    "file": "360dialog-gmbh.png",
+    "w": 1024,
+    "h": 1024
+  },
+  "utopia": {
+    "file": "utopia.png",
+    "w": 48,
+    "h": 48
+  },
+  "hospitable": {
+    "file": "hospitable.png",
+    "w": 256,
+    "h": 256
+  },
+  "digify": {
+    "file": "digify.png",
+    "w": 192,
+    "h": 192
+  },
+  "jove": {
+    "file": "jove.png",
+    "w": 180,
+    "h": 180
+  },
+  "solplanet": {
+    "file": "solplanet.png",
+    "w": 192,
+    "h": 192
+  },
+  "learnworlds": {
+    "file": "learnworlds.png",
+    "w": 192,
+    "h": 192
+  },
+  "omilia": {
+    "file": "omilia.png",
+    "w": 32,
+    "h": 32
+  },
+  "oversee": {
+    "file": "oversee.png",
+    "w": 256,
+    "h": 256
+  },
+  "dentons": null,
+  "paired": {
+    "file": "paired.png",
+    "w": 256,
+    "h": 256
+  },
+  "goglobal": {
+    "file": "goglobal.webp",
+    "w": 36928,
+    "h": 58221
+  },
+  "dotactiv": {
+    "file": "dotactiv.webp",
+    "w": 27696,
+    "h": 14043
+  },
+  "circit-limited": {
+    "file": "circit-limited.png",
+    "w": 256,
+    "h": 256
+  },
+  "the-lighthouse-sydney": {
+    "file": "the-lighthouse-sydney.png",
+    "w": 180,
+    "h": 180
+  },
+  "senseon": {
+    "file": "senseon.ico",
+    "w": 48,
+    "h": 48
+  },
+  "gotymex": {
+    "file": "gotymex.png",
+    "w": 180,
+    "h": 180
+  },
+  "pavago": {
+    "file": "pavago.png",
+    "w": 29,
+    "h": 30
+  },
+  "d2b": {
+    "file": "d2b.png",
+    "w": 256,
+    "h": 256
+  },
+  "anavah-talent": {
+    "file": "anavah-talent.ico",
+    "w": 256,
+    "h": 256
+  },
+  "ista-personnel-solutions": {
+    "file": "ista-personnel-solutions.png",
+    "w": 32,
+    "h": 32
+  },
+  "hirehawk": {
+    "file": "hirehawk.png",
+    "w": 32,
+    "h": 32
+  },
+  "reworks-solutions": {
+    "file": "reworks-solutions.ico",
+    "w": 32,
+    "h": 32
+  },
+  "blew-associates-p-a": null,
+  "ace-it-careers": {
+    "file": "ace-it-careers.png",
+    "w": 192,
+    "h": 192
+  },
+  "fixd-automotive": {
+    "file": "fixd-automotive.png",
+    "w": 180,
+    "h": 180
+  },
+  "future-publishing": {
+    "file": "future-publishing.png",
+    "w": 180,
+    "h": 180
+  },
+  "bush-bush-law-group": {
+    "file": "bush-bush-law-group.ico",
+    "w": 256,
+    "h": 256
+  },
+  "nina-ross-functional-medicine": null,
+  "nutrition-international": {
+    "file": "nutrition-international.png",
+    "w": 192,
+    "h": 192
+  },
+  "teamswell": {
+    "file": "teamswell.png",
+    "w": 180,
+    "h": 180
+  },
+  "instanda": {
+    "file": "instanda.png",
+    "w": 2243,
+    "h": 2218
+  },
+  "gbg": {
+    "file": "gbg.png",
+    "w": 180,
+    "h": 180
+  },
+  "wider-circle": {
+    "file": "wider-circle.ico",
+    "w": 48,
+    "h": 48
+  },
+  "moonshot": {
+    "file": "moonshot.png",
+    "w": 150,
+    "h": 150
+  },
+  "incluso-services-pty-ltd": {
+    "file": "incluso-services-pty-ltd.ico",
+    "w": 48,
+    "h": 48
+  },
+  "devoted-studios": null,
+  "pacific-campaign-house": {
+    "file": "pacific-campaign-house.ico",
+    "w": 48,
+    "h": 48
+  },
+  "impact": {
+    "file": "impact.png",
+    "w": 144,
+    "h": 144
+  },
+  "partner-one-capital": {
+    "file": "partner-one-capital.webp",
+    "w": 7936,
+    "h": 0
+  },
+  "futuresight": {
+    "file": "futuresight.png",
+    "w": 32,
+    "h": 32
+  },
+  "southeastern-archaeological-research-llc-search": {
+    "file": "southeastern-archaeological-research-llc-search.png",
+    "w": 256,
+    "h": 256
+  },
+  "petra-brands": null,
+  "platinumlist": {
+    "file": "platinumlist.png",
+    "w": 180,
+    "h": 180
+  },
+  "inivos": {
+    "file": "inivos.png",
+    "w": 32,
+    "h": 32
+  },
+  "weekday-ai": {
+    "file": "weekday-ai.png",
+    "w": 256,
+    "h": 256
+  },
+  "fortify-companies": {
+    "file": "fortify-companies.png",
+    "w": 192,
+    "h": 192
+  },
+  "ensodata": {
+    "file": "ensodata.png",
+    "w": 256,
+    "h": 256
+  },
+  "supportyourapp": {
+    "file": "supportyourapp.png",
+    "w": 114,
+    "h": 114
+  },
+  "simply-tv": {
+    "file": "simply-tv.png",
+    "w": 256,
+    "h": 256
+  },
+  "therapynotes-com": {
+    "file": "therapynotes-com.svg",
+    "w": 256,
+    "h": 256
+  },
+  "d-ploy": {
+    "file": "d-ploy.png",
+    "w": 180,
+    "h": 180
+  },
+  "vivant-corp": {
+    "file": "vivant-corp.png",
+    "w": 32,
+    "h": 32
+  },
+  "albatross": {
+    "file": "albatross.png",
+    "w": 256,
+    "h": 256
+  },
+  "right-hook-digital": {
+    "file": "right-hook-digital.png",
+    "w": 192,
+    "h": 192
+  },
+  "aperture": {
+    "file": "aperture.svg",
+    "w": 256,
+    "h": 256
+  },
+  "euromonitor": {
+    "file": "euromonitor.png",
+    "w": 256,
+    "h": 256
+  },
+  "pricelabs": {
+    "file": "pricelabs.ico",
+    "w": 256,
+    "h": 256
+  },
+  "cambium-build": {
+    "file": "cambium-build.png",
+    "w": 786,
+    "h": 786
+  },
+  "beyond-petrochemicals": {
+    "file": "beyond-petrochemicals.png",
+    "w": 256,
+    "h": 256
+  },
+  "victor-energy": null,
+  "avomind": {
+    "file": "avomind.png",
+    "w": 192,
+    "h": 192
+  },
+  "scalesource": {
+    "file": "scalesource.png",
+    "w": 128,
+    "h": 119
+  },
+  "ray-ai": {
+    "file": "ray-ai.svg",
+    "w": 256,
+    "h": 256
+  },
+  "somewhere": {
+    "file": "somewhere.png",
+    "w": 256,
+    "h": 256
+  },
+  "globaltize": {
+    "file": "globaltize.png",
+    "w": 256,
+    "h": 256
+  },
+  "hire-hangar": {
+    "file": "hire-hangar.png",
+    "w": 256,
+    "h": 256
+  },
+  "welo-data": {
+    "file": "welo-data.png",
+    "w": 54,
+    "h": 57
+  },
+  "appen": {
+    "file": "appen.png",
+    "w": 256,
+    "h": 256
+  },
+  "telus-digital": {
+    "file": "telus-digital.png",
+    "w": 256,
+    "h": 256
+  },
+  "cherry-assistant": {
+    "file": "cherry-assistant.ico",
+    "w": 256,
+    "h": 256
+  },
+  "hiresava": {
+    "file": "hiresava.png",
+    "w": 108,
+    "h": 93
+  },
+  "staff-scout": {
+    "file": "staff-scout.png",
     "w": 256,
     "h": 256
   }
