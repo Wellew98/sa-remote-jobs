@@ -326,7 +326,11 @@
     "w": 256,
     "h": 256
   },
-  "tyk-technologies": null,
+  "tyk-technologies": {
+    "file": "tyk-technologies.svg",
+    "w": 256,
+    "h": 256
+  },
   "airs-medical-inc": {
     "file": "airs-medical-inc.ico",
     "w": 256,
@@ -388,9 +392,9 @@
     "h": 1024
   },
   "utopia": {
-    "file": "utopia.png",
-    "w": 48,
-    "h": 48
+    "file": "utopia.svg",
+    "w": 256,
+    "h": 256
   },
   "hospitable": {
     "file": "hospitable.png",
@@ -709,7 +713,7 @@
     "h": 256
   },
   "cherry-assistant": {
-    "file": "cherry-assistant.ico",
+    "file": "cherry-assistant.png",
     "w": 256,
     "h": 256
   },
@@ -722,5 +726,15 @@
     "file": "staff-scout.png",
     "w": 256,
     "h": 256
+  },
+  "hire-overseas": {
+    "file": "hire-overseas.png",
+    "w": 256,
+    "h": 256
+  },
+  "assist-world": {
+    "file": "assist-world.png",
+    "w": 2954,
+    "h": 2954
   }
 }
