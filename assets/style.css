@@ -209,7 +209,7 @@ p{margin-bottom:1rem}
   margin:0 0 14px;padding:14px 16px;
   background:var(--bg-alt);border-left:3px solid var(--brand);
   border-radius:0 var(--radius) var(--radius) 0;
-  font-size:0.97rem;line-height:1.6;color:var(--ink);
+  font-size:0.97rem;line-height:1.6;color:var(--heading);
 }
 .floor-label{
   font-family:var(--font-mono);font-size:0.78rem;
@@ -252,7 +252,7 @@ p{margin-bottom:1rem}
   padding-top:12px;border-top:1px solid var(--line);
 }
 .platform-card__stat{
-  font-family:var(--font-mono);font-size:0.8rem;font-weight:600;color:var(--ink);
+  font-family:var(--font-mono);font-size:0.8rem;font-weight:600;color:var(--heading);
 }
 .platform-card__stat--none{color:var(--body);font-weight:400}
 .platform-card__more{font-size:0.85rem;color:var(--brand);font-weight:500}
@@ -448,4 +448,81 @@ p{margin-bottom:1rem}
   .plat-head h1{font-size:1.9rem}
   .plat-head__logo{width:52px;height:52px}
   .plat-head__logo img.clogo{width:52px;height:52px}
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   v3.1 (2026-08-21) — job page + category page.
+
+   Both shapes were still on the pre-v3 classes and looked like a different
+   site. Neither gets a new visual language: the job page reuses the
+   platform page's frame outright (.plat-wrap / .side-card / .floor-block /
+   .rolefold) and the category page reuses .rolelist and .ledger. No new
+   colour enters the system here — the job page's old eligibility pills
+   borrowed .difficulty-chip--medium's amber for an unrelated meaning, so
+   one colour carried two claims. They are gone.
+
+   The only genuinely new component is .posting: the scraped description,
+   which used to render inside white-space:pre-wrap and doubled the height
+   of every job page.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── job page head ── */
+.job-title{font-size:2.05rem;margin-bottom:11px;text-wrap:balance;overflow-wrap:anywhere}
+.job-co{font-weight:600;font-size:0.98rem}
+.job-cat{font-family:var(--font-mono);font-size:0.72rem;font-weight:600;letter-spacing:0.04em;color:var(--body);background:var(--bg-alt);border:1px solid var(--line);padding:2px 9px;border-radius:10px}
+.job-cat:hover{color:var(--brand);border-color:var(--brand-light)}
+
+/* fine print: sourcing notes, caveats, the report link. Deliberately quiet —
+   it is the honest qualifier under a claim, not a second voice. */
+.job-fineprint{font-size:0.85rem;line-height:1.55;color:var(--body);margin:10px 0 0}
+.job-report{margin-top:36px;padding-top:18px;border-top:1px solid var(--line)}
+
+/* ── .posting: the scraped listing, folded away by default ── */
+.posting h3{font-size:1rem;margin:22px 0 7px}
+.posting > h3:first-child{margin-top:0}
+.posting p{color:var(--body);line-height:1.65;margin:0 0 11px}
+.posting ul{margin:0 0 13px;padding-left:19px}
+.posting li{color:var(--body);line-height:1.6;margin-bottom:5px}
+/* a "Key: value" line from the source board, set as a field rather than prose */
+.posting__field{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 7px}
+.posting__field b{font-family:var(--font-mono);font-size:0.73rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--label);flex:0 0 auto;padding-top:3px}
+.posting__field span{flex:1 1 240px;min-width:0}
+.rolefold--posting{border-top:none;padding-top:0;margin-top:14px}
+
+/* sidebar: one extra card beyond the platform page's */
+.side-stat em{text-align:right;overflow-wrap:anywhere}
+.side-about{font-size:0.9rem;line-height:1.55;margin:0 0 14px}
+.side-card .btn--ghost{width:100%;justify-content:center}
+
+/* ── category page ── */
+/* ── platform page: roles span the full width, below the sidebar.
+   They used to sit inside the 700px main column, which forced a 2-up grid
+   and left the right third of the page empty for the whole of a 427-role
+   list. The sidebar is worth having beside the eligibility and pay sections;
+   it is not worth a third of the viewport while you browse roles. ── */
+.plat-wrap--split{padding-bottom:0}
+.plat-roles{max-width:1180px;margin:0 auto;padding:0 24px 60px}
+.roles .job-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:1080px){.roles .job-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.roles .job-grid{grid-template-columns:minmax(0,1fr)}}
+
+.cat-stats{font-family:var(--font-mono);font-size:0.86rem;color:var(--body);margin:0}
+/* pay sits under the role title, not in a fifth column - the ledger grid
+   collapses to two columns on a phone and a fifth cell breaks that */
+.ledger__role{display:flex;flex-direction:column;gap:3px;min-width:0}
+.ledger__pay{font-family:var(--font-mono);font-size:0.78rem;font-weight:600;color:var(--heading)}
+.ledger__pay em{font-style:normal;font-weight:400;color:var(--body)}
+.cat-band{margin-bottom:38px}
+.cat-band:last-child{margin-bottom:0}
+.cat-band .roles__tag{margin-bottom:13px}
+
+@media(max-width:600px){
+  .sec-head h1{font-size:2rem}
+  /* job titles run far longer than company names, so the head stacks here
+     where the platform page's does not - "Staffing/Schedulers" beside a
+     52px logo left the title touching the right edge */
+  .plat-head--job{flex-direction:column;gap:13px}
+  .job-title{font-size:1.5rem}
+  .posting__field{gap:2px}
+  .posting__field b{padding-top:0}
 }
