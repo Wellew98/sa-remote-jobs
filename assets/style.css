@@ -211,6 +211,17 @@ p{margin-bottom:1rem}
   border-radius:0 var(--radius) var(--radius) 0;
   font-size:0.97rem;line-height:1.6;color:var(--heading);
 }
+/* A structured location from the employer's job board - deliberately NOT
+   styled as a pull-quote. 458 published jobs prove eligibility this way, and
+   rendering a bare "South Africa" between quote marks reads as a fabricated
+   quotation. Same evidence, honest presentation. */
+.floor-listed{
+  margin:0 0 14px;padding:12px 16px;
+  background:var(--bg-alt);border:1px solid var(--line);
+  border-radius:var(--radius);
+  font-family:var(--font-mono);font-size:0.95rem;
+  color:var(--heading);
+}
 .floor-label{
   font-family:var(--font-mono);font-size:0.78rem;
   text-transform:uppercase;letter-spacing:0.06em;

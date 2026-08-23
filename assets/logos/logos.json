@@ -736,5 +736,25 @@
     "file": "assist-world.png",
     "w": 2954,
     "h": 2954
+  },
+  "beyond-co": {
+    "file": "beyond-co.png",
+    "w": 32,
+    "h": 32
+  },
+  "niva-health": {
+    "file": "niva-health.webp",
+    "w": 7936,
+    "h": 0
+  },
+  "coconut": {
+    "file": "coconut.png",
+    "w": 192,
+    "h": 192
+  },
+  "micro-bit-educational-foundation": {
+    "file": "micro-bit-educational-foundation.ico",
+    "w": 16,
+    "h": 16
   }
 }
