@@ -83,6 +83,17 @@ p{margin-bottom:1rem}
 .cat-card h3{font-size:1rem}
 .cat-card__count{font-family:var(--font-mono);color:var(--brand);font-size:0.85rem;margin-top:4px}
 
+/* Declared-but-unresearched platform categories on /platforms/. Deliberately
+   flat and unclickable: they have no page, and a card that looked live would
+   promise a shelf we have not stocked. */
+.pending-head{margin:44px 0 16px;padding-top:28px;border-top:1px solid var(--line)}
+.pending-head h2{font-size:1.15rem;margin-bottom:6px}
+.pending-head p{color:var(--body);font-size:0.92rem;max-width:680px}
+.cat-card--pending{background:var(--bg-alt);border-style:dashed;box-shadow:none;cursor:default}
+.cat-card--pending:hover{border-color:var(--line);box-shadow:none;transform:none}
+.cat-card--pending h3{color:var(--body);font-weight:600}
+.cat-card--pending .cat-card__count{color:var(--body);opacity:0.75}
+
 /* balanced: 3 columns desktop */
 .job-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .job-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;transition:all .15s;box-shadow:var(--shadow-black) 0px 1px 3px;cursor:pointer;display:block}
