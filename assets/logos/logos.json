@@ -791,5 +791,25 @@
     "file": "upwork.svg",
     "w": 256,
     "h": 256
+  },
+  "maxaccelerate": {
+    "file": "maxaccelerate.png",
+    "w": 155,
+    "h": 155
+  },
+  "primal-storm": {
+    "file": "primal-storm.png",
+    "w": 32,
+    "h": 32
+  },
+  "netguru": {
+    "file": "netguru.png",
+    "w": 96,
+    "h": 96
+  },
+  "covergo": {
+    "file": "covergo.png",
+    "w": 192,
+    "h": 192
   }
 }
