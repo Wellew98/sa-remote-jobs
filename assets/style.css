@@ -76,14 +76,16 @@ p{margin-bottom:1rem}
 .section__head .eyebrow{justify-content:center;margin-bottom:10px}
 .section__head p{max-width:560px;margin:8px auto 0}
 
-/* Same size as the "checked by hand" cards on the homepage (.ent-grid /
-   .ent-card) - 3 up, not a cramped 4-up grid, so a card here is as big as
-   the verified-platform cards elsewhere on the site. */
+/* Same shape and size as the "checked by hand" cards on the homepage
+   (.ent-grid / .ent-card) - 3 up, a real description filling the middle,
+   the count pinned to a footer line - not just a wider box around the same
+   two lines of text. */
 .cat-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.cat-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px;text-align:center;transition:all .15s;box-shadow:var(--shadow-black) 0px 1px 3px;display:block}
+.cat-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px;transition:all .15s;box-shadow:var(--shadow-black) 0px 1px 3px;display:flex;flex-direction:column}
 .cat-card:hover{border-color:var(--brand-light);box-shadow:var(--shadow-blue) 0px 15px 25px -15px,var(--shadow-black) 0px 6px 12px -6px;transform:translateY(-1px)}
-.cat-card h3{font-size:1.18rem;line-height:1.25}
-.cat-card__count{font-family:var(--font-mono);color:var(--brand);font-size:0.9rem;margin-top:8px}
+.cat-card h3{font-size:1.18rem;line-height:1.25;margin-bottom:8px}
+.cat-card__desc{color:var(--body);font-size:0.88rem;line-height:1.55;margin:0 0 16px;flex:1;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cat-card__count{font-family:var(--font-mono);color:var(--brand);font-size:0.9rem;padding-top:13px;border-top:1px solid var(--line-soft);margin-top:auto;text-align:left}
 
 /* Declared-but-unresearched platform categories on /platforms/. Deliberately
    flat and unclickable: they have no page, and a card that looked live would
