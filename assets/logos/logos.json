@@ -756,5 +756,40 @@
     "file": "micro-bit-educational-foundation.ico",
     "w": 16,
     "h": 16
+  },
+  "prolific": {
+    "file": "prolific.ico",
+    "w": 48,
+    "h": 48
+  },
+  "respondent": {
+    "file": "respondent.svg",
+    "w": 256,
+    "h": 256
+  },
+  "testbirds": {
+    "file": "testbirds.svg",
+    "w": 256,
+    "h": 256
+  },
+  "way-with-words": {
+    "file": "way-with-words.svg",
+    "w": 256,
+    "h": 256
+  },
+  "arc-dev": {
+    "file": "arc-dev.png",
+    "w": 192,
+    "h": 192
+  },
+  "superprof": {
+    "file": "superprof.png",
+    "w": 192,
+    "h": 192
+  },
+  "upwork": {
+    "file": "upwork.svg",
+    "w": 256,
+    "h": 256
   }
 }
