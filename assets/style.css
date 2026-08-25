@@ -10,6 +10,7 @@
 :root {
   --brand:#5b3df5;--brand-dark:#4527d6;--brand-deep:#191140;--brand-bg:#f1edff;--brand-light:#c7bbfb;
   --verified:#1f6e4f;--verified-dark:#155a3f;--verified-bg:#e7f5ee;
+  --stale:#8a5312;--stale-bg:#fdf3e5;--stale-line:#efd9b6;
   --heading:#10131a;--body:#4b5566;--label:#20283a;--line:#e2e6ee;--line-soft:#eef1f6;
   --bg:#fbfcfe;--bg-alt:#f1f3f8;--shadow-blue:rgba(60,45,140,0.16);--shadow-black:rgba(16,19,26,0.07);
   --radius:10px;--radius-sm:6px;
@@ -380,6 +381,18 @@ p{margin-bottom:1rem}
 .ledger__lvl{font-family:var(--font-mono);font-size:0.76rem;color:var(--body)}
 .ledger__lvl--entry{color:var(--verified);font-weight:600}
 .ledger__date{font-family:var(--font-mono);font-size:0.76rem;color:var(--body);text-align:right}
+
+/* ── posting age. 178 published rows were posted over 180 days ago, the oldest
+   2024-08-06. Their sources still list them so they stay published (expire_jobs
+   ages on last_seen_at, which is the right test), but a bare date in a mono
+   column does not read as a warning to anyone skimming. See age_flag_html().
+   Amber, not red: old is a caution, not a defect. ── */
+.age-flag{display:inline-block;margin-left:.4em;padding:0 .4em;border-radius:var(--radius-sm);
+  background:var(--stale-bg);color:var(--stale);border:1px solid var(--stale-line);
+  font-family:var(--font-body);font-size:0.68rem;font-weight:600;line-height:1.6;
+  white-space:nowrap;vertical-align:baseline;letter-spacing:.01em}
+.ledger__date .age-flag{font-size:0.66rem;margin-left:.35em}
+.side-stat .age-flag{font-size:0.72rem}
 
 /* ── guides band: intro left, cards right ── */
 .guides-band{display:flex;gap:48px;align-items:flex-start}
