@@ -821,5 +821,35 @@
     "file": "storyteq.png",
     "w": 192,
     "h": 192
+  },
+  "hadley-designs": {
+    "file": "hadley-designs.png",
+    "w": 32,
+    "h": 32
+  },
+  "human-intelligence": {
+    "file": "human-intelligence.png",
+    "w": 31,
+    "h": 32
+  },
+  "stranger-soccer": {
+    "file": "stranger-soccer.png",
+    "w": 50,
+    "h": 50
+  },
+  "huzzle": {
+    "file": "huzzle.png",
+    "w": 180,
+    "h": 180
+  },
+  "snipebridge": {
+    "file": "snipebridge.png",
+    "w": 37,
+    "h": 42
+  },
+  "simprints": {
+    "file": "simprints.png",
+    "w": 192,
+    "h": 192
   }
 }
