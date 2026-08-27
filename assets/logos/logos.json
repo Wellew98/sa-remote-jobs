@@ -851,5 +851,20 @@
     "file": "simprints.png",
     "w": 192,
     "h": 192
+  },
+  "intelligent-change": {
+    "file": "intelligent-change.png",
+    "w": 32,
+    "h": 32
+  },
+  "pickle": {
+    "file": "pickle.png",
+    "w": 153,
+    "h": 157
+  },
+  "ai-acquisition": {
+    "file": "ai-acquisition.png",
+    "w": 479,
+    "h": 479
   }
 }
