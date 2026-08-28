@@ -866,5 +866,15 @@
     "file": "ai-acquisition.png",
     "w": 479,
     "h": 479
+  },
+  "crystalia-glass": {
+    "file": "crystalia-glass.png",
+    "w": 900,
+    "h": 900
+  },
+  "wifi-tribe": {
+    "file": "wifi-tribe.png",
+    "w": 256,
+    "h": 256
   }
 }
