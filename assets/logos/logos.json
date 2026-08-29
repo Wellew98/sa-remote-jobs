@@ -881,5 +881,50 @@
     "file": "mweb.png",
     "w": 192,
     "h": 192
+  },
+  "mercier-consultancy-group": {
+    "file": "mercier-consultancy-group.png",
+    "w": 1024,
+    "h": 1024
+  },
+  "cross-border-talents": {
+    "file": "cross-border-talents.svg",
+    "w": 256,
+    "h": 256
+  },
+  "quickteam": {
+    "file": "quickteam.png",
+    "w": 192,
+    "h": 192
+  },
+  "rockstar": {
+    "file": "rockstar.png",
+    "w": 48,
+    "h": 48
+  },
+  "hire-resolve-com": {
+    "file": "hire-resolve-com.png",
+    "w": 192,
+    "h": 192
+  },
+  "talent-voyager": {
+    "file": "talent-voyager.png",
+    "w": 32,
+    "h": 32
+  },
+  "pearl": {
+    "file": "pearl.png",
+    "w": 256,
+    "h": 256
+  },
+  "edge-tutor-international": {
+    "file": "edge-tutor-international.png",
+    "w": 128,
+    "h": 128
+  },
+  "division50": {
+    "file": "division50.png",
+    "w": 192,
+    "h": 192
   }
 }
