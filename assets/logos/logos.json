@@ -926,5 +926,10 @@
     "file": "division50.png",
     "w": 192,
     "h": 192
+  },
+  "sweat-pants-agency": {
+    "file": "sweat-pants-agency.png",
+    "w": 112,
+    "h": 112
   }
 }
