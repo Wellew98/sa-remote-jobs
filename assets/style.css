@@ -381,6 +381,10 @@ p{margin-bottom:1rem}
 .role-row__pay{font-family:var(--font-mono);font-weight:700;font-size:0.86rem;color:var(--heading);width:178px;text-align:right;flex-shrink:0}
 .role-row__pay--none{font-weight:500;color:var(--body)}
 .role-row__pay em{font-style:normal;font-weight:500;color:var(--body)}
+.rolelist__head{display:flex;align-items:center;gap:20px;padding:11px 22px;background:var(--bg-alt);border-bottom:1px solid var(--line);font-family:var(--font-mono);font-size:0.68rem;font-weight:600;letter-spacing:0.11em;text-transform:uppercase;color:var(--body)}
+.rolelist__head span:first-child{flex:1 1 auto}
+.rolelist__head span:nth-child(2){width:96px;flex-shrink:0}
+.rolelist__head span:last-child{width:178px;text-align:right;flex-shrink:0}
 
 /* ── ledger: recent postings as a record, not more cards ── */
 .ledger{border:1px solid var(--line);border-radius:var(--radius);background:#fff;overflow:hidden}
@@ -497,6 +501,7 @@ p{margin-bottom:1rem}
   .guides-band__cards{grid-template-columns:minmax(0,1fr)}
   .role-row{flex-wrap:wrap;gap:8px 14px}
   .role-row__pay{width:auto;text-align:left}
+  .rolelist__head{display:none}
   .plat-head h1{font-size:1.9rem}
   .plat-head__logo{width:52px;height:52px}
   .plat-head__logo img.clogo{width:52px;height:52px}
@@ -578,3 +583,16 @@ p{margin-bottom:1rem}
   .posting__field{gap:2px}
   .posting__field b{padding-top:0}
 }
+
+/* ── Batch 2026-08-26: slice links, category chips, WhatsApp share ── */
+/* Slice links under a category page heading. Plain inline links; the chip
+   class is deliberately not reused because these read as navigation, not tags. */
+.cat-slices a{color:var(--brand);font-weight:600}
+.cat-slices a:hover{text-decoration:underline}
+/* Job-category chips on a platform page's sidebar ("Browse these roles"). */
+.cat-chips{display:flex;flex-wrap:wrap;gap:8px}
+.cat-chips .chip{background:#eef2ff;color:var(--brand-dark, #4434d4)}
+.cat-chips .chip i{font-style:normal;opacity:0.65;margin-left:3px}
+.cat-chips .chip:hover{background:var(--verified-bg)}
+/* WhatsApp share button sits under the side-note inside a side-card. */
+.wa-share{width:100%;justify-content:center;font-size:0.95rem;padding:12px 20px;margin-top:10px}
