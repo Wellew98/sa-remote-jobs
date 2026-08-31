@@ -931,5 +931,15 @@
     "file": "sweat-pants-agency.png",
     "w": 112,
     "h": 112
+  },
+  "capitex": {
+    "file": "capitex.png",
+    "w": 192,
+    "h": 192
+  },
+  "mascotte": {
+    "file": "mascotte.png",
+    "w": 256,
+    "h": 256
   }
 }
