@@ -946,5 +946,10 @@
     "file": "lemon-io.ico",
     "w": 48,
     "h": 48
+  },
+  "jobrack": {
+    "file": "jobrack.ico",
+    "w": 16,
+    "h": 16
   }
 }
