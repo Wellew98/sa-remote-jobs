@@ -941,5 +941,10 @@
     "file": "mascotte.png",
     "w": 256,
     "h": 256
+  },
+  "lemon-io": {
+    "file": "lemon-io.ico",
+    "w": 48,
+    "h": 48
   }
 }
