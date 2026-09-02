@@ -227,6 +227,14 @@ p{margin-bottom:1rem}
   border-radius:0 var(--radius) var(--radius) 0;
   font-size:0.97rem;line-height:1.6;color:var(--heading);
 }
+/* content.md M-1: a one-line, plain-language answer above the evidence-
+   dense quote/prose in a floor block. Unboxed on purpose - the quote below
+   it already has a border and a background, and a second box here would
+   stack three nested containers (h2, box, box) for one short sentence. */
+.bottom-line{
+  margin:0 0 12px;font-size:1.02rem;line-height:1.55;color:var(--heading);
+}
+.bottom-line strong{color:var(--brand)}
 /* A structured location from the employer's job board - deliberately NOT
    styled as a pull-quote. 458 published jobs prove eligibility this way, and
    rendering a bare "South Africa" between quote marks reads as a fabricated
