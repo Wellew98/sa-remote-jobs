@@ -951,5 +951,10 @@
     "file": "jobrack.ico",
     "w": 16,
     "h": 16
+  },
+  "soar-with-us": {
+    "file": "soar-with-us.png",
+    "w": 256,
+    "h": 256
   }
 }
