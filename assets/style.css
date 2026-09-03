@@ -604,3 +604,10 @@ p{margin-bottom:1rem}
 .cat-chips .chip:hover{background:var(--verified-bg)}
 /* WhatsApp share button sits under the side-note inside a side-card. */
 .wa-share{width:100%;justify-content:center;font-size:0.95rem;padding:12px 20px;margin-top:10px}
+
+/* geo.md finding 2: the eligibility block now carries the date its sources
+   were last checked. .floor-label is an uppercase mono eyebrow - fine as
+   CHECKED AGAINST, shouty across a whole sentence - so the date itself drops
+   back to normal case. The <time datetime> around it is for the answer
+   engines; this rule is only about it staying readable. */
+.floor-label time{text-transform:none;letter-spacing:0.01em;font-weight:600;color:var(--heading)}
