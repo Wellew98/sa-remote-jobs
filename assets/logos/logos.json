@@ -961,5 +961,25 @@
     "file": "thinkwell.ico",
     "w": 16,
     "h": 16
+  },
+  "valutico": {
+    "file": "valutico.png",
+    "w": 192,
+    "h": 192
+  },
+  "prop-firm-match-global-fzco": {
+    "file": "prop-firm-match-global-fzco.png",
+    "w": 180,
+    "h": 180
+  },
+  "grapple-law": {
+    "file": "grapple-law.ico",
+    "w": 48,
+    "h": 48
+  },
+  "keycafe": {
+    "file": "keycafe.png",
+    "w": 256,
+    "h": 256
   }
 }
