@@ -982,5 +982,10 @@
     "w": 256,
     "h": 256
   },
-  "cxm-direct-llc": null
+  "cxm-direct-llc": null,
+  "bp3-global-inc": {
+    "file": "bp3-global-inc.png",
+    "w": 355,
+    "h": 355
+  }
 }
