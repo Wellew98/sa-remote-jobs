@@ -992,5 +992,25 @@
     "file": "loomer-pty-ltd.png",
     "w": 339,
     "h": 339
+  },
+  "ratehawk": {
+    "file": "ratehawk.png",
+    "w": 32,
+    "h": 32
+  },
+  "monaco-solicitors": {
+    "file": "monaco-solicitors.ico",
+    "w": 256,
+    "h": 256
+  },
+  "elesta": {
+    "file": "elesta.png",
+    "w": 64,
+    "h": 64
+  },
+  "hireframe": {
+    "file": "hireframe.png",
+    "w": 256,
+    "h": 256
   }
 }
