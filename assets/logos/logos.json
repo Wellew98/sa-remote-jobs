@@ -1028,5 +1028,10 @@
     "file": "wright-family-law-group.png",
     "w": 168,
     "h": 99
+  },
+  "fuku": {
+    "file": "fuku.svg",
+    "w": 256,
+    "h": 256
   }
 }
