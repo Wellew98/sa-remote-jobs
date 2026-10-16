@@ -1033,5 +1033,10 @@
     "file": "fuku.svg",
     "w": 256,
     "h": 256
+  },
+  "drop-zero-digital": {
+    "file": "drop-zero-digital.png",
+    "w": 300,
+    "h": 300
   }
 }
