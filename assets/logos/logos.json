@@ -1038,5 +1038,10 @@
     "file": "drop-zero-digital.png",
     "w": 300,
     "h": 300
+  },
+  "sleek": {
+    "file": "sleek.png",
+    "w": 48,
+    "h": 48
   }
 }
