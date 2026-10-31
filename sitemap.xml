@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://saremotejobs.co.za/</loc><lastmod>2026-10-30</lastmod><priority>1.0</priority></url>
-  <url><loc>https://saremotejobs.co.za/companies/</loc><lastmod>2026-10-30</lastmod><priority>0.9</priority></url>
-  <url><loc>https://saremotejobs.co.za/categories/</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://saremotejobs.co.za/</loc><lastmod>2026-10-31</lastmod><priority>1.0</priority></url>
+  <url><loc>https://saremotejobs.co.za/companies/</loc><lastmod>2026-10-31</lastmod><priority>0.9</priority></url>
+  <url><loc>https://saremotejobs.co.za/categories/</loc><lastmod>2026-10-31</lastmod><priority>0.8</priority></url>
   <url><loc>https://saremotejobs.co.za/guides/</loc><lastmod>2026-09-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://saremotejobs.co.za/about/</loc><lastmod>2026-10-30</lastmod><priority>0.6</priority></url>
+  <url><loc>https://saremotejobs.co.za/about/</loc><lastmod>2026-10-31</lastmod><priority>0.6</priority></url>
   <url><loc>https://saremotejobs.co.za/faq/</loc><lastmod>2026-09-06</lastmod><priority>0.5</priority></url>
   <url><loc>https://saremotejobs.co.za/contact/</loc><lastmod>2026-09-06</lastmod><priority>0.4</priority></url>
   <url><loc>https://saremotejobs.co.za/terms/</loc><lastmod>2026-09-06</lastmod><priority>0.3</priority></url>
@@ -286,7 +286,7 @@
   <url><loc>https://saremotejobs.co.za/jobs/account-manager-20019-somewhere-178189/</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/client-success-partner-20020-somewhere-178189/</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/ai-automation-engineer-ray-ai-794215/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/junior-chief-of-staff-ray-ai-793891/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/jobs/junior-chief-of-staff-ray-ai-793891/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/founders-associate-ray-ai-793932/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/bookkeeper-full-time-remote-virtuhire-cc49d4/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/high-agency-executive-personal-assistant-german-61114189087-somewhere-178170/</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
@@ -496,10 +496,8 @@
   <url><loc>https://saremotejobs.co.za/jobs/quality-assurance-intake-coordinator-reworks-solutions-b2371c/</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/legal-assistant-pavago-cf1c99/</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/healthcare-receptionist-reworks-solutions-e8d5e4/</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/creative-assistant-illustration-hadley-designs-efecea/</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/salesforce-recruiter-business-development-manager-pod-solutions-maxaccelerate-f6cbfa/</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/virtual-assistant-ebay-whatnot-listings-assist-world-91b331/</loc><lastmod>2026-08-26</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/staff-engineer-cloudlinux-35b15c/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/network-engineer-pavago-36dc45/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/sales-manager-automotive-virtuhire-463a64/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/marketer-pavago-749534/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
@@ -510,7 +508,6 @@
   <url><loc>https://saremotejobs.co.za/jobs/finance-coordinator-reworks-solutions-2173cc/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/customer-success-for-digital-nomad-community-fully-remote-wifi-tribe-224406/</loc><lastmod>2026-08-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/site-reliability-engineer-tyk-technologies-3cb268/</loc><lastmod>2026-10-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/quality-assurance-specialist-reworks-solutions-4385b6/</loc><lastmod>2026-08-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/project-manager-construction-crystalia-glass-81f110/</loc><lastmod>2026-08-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/tribe-support-lead-wifi-tribe-ad15d3/</loc><lastmod>2026-08-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/project-manager-emea-remote-360dialog-gmbh-05480e/</loc><lastmod>2026-09-03</lastmod><priority>0.7</priority></url>
@@ -640,9 +637,7 @@
   <url><loc>https://saremotejobs.co.za/jobs/paralegallegal-support-cxm-direct-llc-55ff8a/</loc><lastmod>2026-09-10</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/landscaping-sales-remote-scalesource-e3c978/</loc><lastmod>2026-09-10</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/data-analyst-bi-developer-reworks-solutions-1cbe0a/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/executive-assistant-reworks-solutions-5dd8c3/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/bookkeeper-property-administrator-virtuhire-7abe09/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/call-centre-agent-reworks-solutions-d80542/</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/recruiter-sourcing-specialist-huzzle-70f684/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/inbound-marketing-lead-dotactiv-71b7be/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/group-chief-compliance-legal-officer-cxm-direct-llc-63b2d0/</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
@@ -729,7 +724,6 @@
   <url><loc>https://saremotejobs.co.za/jobs/sales-development-representative-environmental-services-huzzle-926dc5/</loc><lastmod>2026-10-06</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/performance-marketer-huzzle-0370e0/</loc><lastmod>2026-10-06</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/graphic-designer-marketing-agency-huzzle-bb2d12/</loc><lastmod>2026-10-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/paralegal-uk-family-law-huzzle-008bda/</loc><lastmod>2026-10-06</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/marketing-project-manager-remote-worldwide-scalesource-0495b8/</loc><lastmod>2026-10-06</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/conceptual-marketing-artist-loomer-pty-ltd-b58841/</loc><lastmod>2026-10-06</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/graphic-designer-loomer-pty-ltd-4e664d/</loc><lastmod>2026-10-06</lastmod><priority>0.7</priority></url>
@@ -745,12 +739,7 @@
   <url><loc>https://saremotejobs.co.za/jobs/marketing-manager-demand-generation-growth-marketing-huzzle-7d3fce/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/ai-solutions-automation-architect-gohighlevel-huzzle-0bda0c/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/independent-consultant-sustainable-bio-materials-regulatory-compliance-roundtable-on-sustainable-bio-b6206c/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/account-executive-b2b-sales-remote-pavago-5a0ba4/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/copywriter-pavago-1c7d14/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/customer-success-specialist-jobrack-beef34/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/hr-operations-specialist-law-offices-of-sabrina-li-6b6a44/</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/overnight-it-support-specialist-loomer-pty-ltd-aa7528/</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/healthcare-intake-specialist-qa-specialist-reworks-solutions-3bb9f3/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/senior-marketing-specialist-huzzle-c1dea1/</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/sales-development-representative-renewable-energy-huzzle-4acdb2/</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/client-delivery-manager-pavago-9b5f68/</loc><lastmod>2026-10-10</lastmod><priority>0.7</priority></url>
@@ -758,7 +747,6 @@
   <url><loc>https://saremotejobs.co.za/jobs/performance-marketing-manager-google-ads-meta-ads-paid-acquisition-pavago-32032f/</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/senior-full-stack-software-engineer-product-infrastructure-pavago-00e22f/</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/devops-engineer-pavago-090141/</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/outbound-sales-development-representative-pavago-1a2ff1/</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/marketing-operations-coordinator-virtuhire-841caa/</loc><lastmod>2026-10-21</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/us-immigration-paralegal-law-offices-of-sabrina-li-2b3aca/</loc><lastmod>2026-10-10</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/junior-sales-development-representative-it-industry-huzzle-9d4c79/</loc><lastmod>2026-10-10</lastmod><priority>0.7</priority></url>
@@ -805,7 +793,6 @@
   <url><loc>https://saremotejobs.co.za/jobs/video-editor-19362-somewhere-177807/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/sales-representative-65791271841-somewhere-179149/</loc><lastmod>2026-10-23</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/high-ticket-sales-closer-somewhere-179138/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/sales-operations-proposal-specialist-events-industry-ai-enabled-showit-somewhere-179146/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/customer-service-specialist-digital-email-support-somewhere-179148/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/marketing-assistant-part-time-21686-somewhere-179140/</loc><lastmod>2026-10-23</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/customer-service-sales-representative-21221-somewhere-178905/</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority></url>
@@ -1093,7 +1080,6 @@
   <url><loc>https://saremotejobs.co.za/jobs/short-term-rental-operations-specialist-somewhere-179183/</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/sales-representative-somewhere-178951380692/</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/senior-us-individual-tax-advisor-big-4-background-somewhere-179201/</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/inventory-supply-chain-analyst-growth-planner-somewhere-179198/</loc><lastmod>2026-10-23</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/customer-supportchampion-65947585429-somewhere-179199/</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/customer-service-representative-3-somewhere-176899/</loc><lastmod>2026-10-24</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/patient-experience-sdr-somewhere-178111/</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
@@ -1378,13 +1364,14 @@
   <url><loc>https://saremotejobs.co.za/jobs/appointment-setter-sales-development-representative-sdr-somewhere-179337/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/global-discovery-specialist-somewhere-179337/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/client-acquisition-executive-somewhere-179336/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/jobs/senior-seo-web-operations-specialist-remote-somewhere-179336/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/jobs/senior-seo-web-operations-specialist-remote-somewhere-179336/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/client-engagement-sales-manager-somewhere-179331/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/customer-onboarding-implementation-specialist-21982-somewhere-179330/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/email-marketing-specialist-somewhere-179330/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/hospitality-operations-coordinator-somewhere-179330/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/jobs/customer-operations-manager-onboarding-client-success-somewhere-179330/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/agencies/</loc><lastmod>2026-10-30</lastmod><priority>0.9</priority></url>
+  <url><loc>https://saremotejobs.co.za/jobs/virtual-executive-assistant-content-strategist-assist-world-871d7c/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/agencies/</loc><lastmod>2026-10-31</lastmod><priority>0.9</priority></url>
   <url><loc>https://saremotejobs.co.za/ai-training/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
   <url><loc>https://saremotejobs.co.za/testing/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
   <url><loc>https://saremotejobs.co.za/microtask/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
@@ -1392,21 +1379,21 @@
   <url><loc>https://saremotejobs.co.za/tutoring/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
   <url><loc>https://saremotejobs.co.za/freelance-marketplaces/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
   <url><loc>https://saremotejobs.co.za/developer-platforms/</loc><lastmod>2026-09-01</lastmod><priority>0.9</priority></url>
-  <url><loc>https://saremotejobs.co.za/platforms/</loc><lastmod>2026-10-30</lastmod><priority>0.9</priority></url>
-  <url><loc>https://saremotejobs.co.za/outsourcing-to-south-africa/</loc><lastmod>2026-10-30</lastmod><priority>0.6</priority></url>
-  <url><loc>https://saremotejobs.co.za/companies/somewhere/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/platforms/</loc><lastmod>2026-10-31</lastmod><priority>0.9</priority></url>
+  <url><loc>https://saremotejobs.co.za/outsourcing-to-south-africa/</loc><lastmod>2026-10-31</lastmod><priority>0.6</priority></url>
+  <url><loc>https://saremotejobs.co.za/companies/somewhere/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/virtuhire/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/reworks-solutions/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/hire-hangar/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/companies/huzzle/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/companies/pavago/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/companies/huzzle/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/companies/pavago/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/d2b/</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/companies/assist-world/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/companies/assist-world/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/ista-personnel-solutions/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/hire-overseas/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/hirehawk/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/cherry-assistant/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/companies/supportyourapp/</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/companies/supportyourapp/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/paired/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/intellect/</loc><lastmod>2026-08-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/african-safari-group/</loc><lastmod>2026-10-19</lastmod><priority>0.7</priority></url>
@@ -1424,17 +1411,16 @@
   <url><loc>https://saremotejobs.co.za/companies/jobrack/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/alx-africa/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/elvtr/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/companies/ray-ai/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/companies/ray-ai/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/soar-with-us/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/companies/hadley-designs/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/division50/</loc><lastmod>2026-10-21</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/loomer-pty-ltd/</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/lionbridge/</loc><lastmod>2026-10-14</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/companies/law-offices-of-sabrina-li/</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/shadow-light-studios/</loc><lastmod>2026-09-25</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/ten-group/</loc><lastmod>2026-10-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/remote-raven/</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/welo-data/</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/companies/hadley-designs/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/human-intelligence/</loc><lastmod>2026-10-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/pickle/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/ai-acquisition/</loc><lastmod>2026-10-19</lastmod><priority>0.7</priority></url>
@@ -1469,24 +1455,24 @@
   <url><loc>https://saremotejobs.co.za/companies/malt/</loc><lastmod>2026-08-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/toptal/</loc><lastmod>2026-08-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/companies/lemon-io/</loc><lastmod>2026-09-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/categories/admin-virtual-assistance/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
-  <url><loc>https://saremotejobs.co.za/categories/admin-virtual-assistance/entry-level/</loc><lastmod>2026-10-30</lastmod><priority>0.6</priority></url>
+  <url><loc>https://saremotejobs.co.za/categories/admin-virtual-assistance/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/categories/admin-virtual-assistance/entry-level/</loc><lastmod>2026-10-31</lastmod><priority>0.6</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/admin-virtual-assistance/with-pay/</loc><lastmod>2026-10-30</lastmod><priority>0.6</priority></url>
-  <url><loc>https://saremotejobs.co.za/categories/admin-virtual-assistance/part-time/</loc><lastmod>2026-10-30</lastmod><priority>0.6</priority></url>
-  <url><loc>https://saremotejobs.co.za/categories/customer-support/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/categories/admin-virtual-assistance/part-time/</loc><lastmod>2026-10-31</lastmod><priority>0.6</priority></url>
+  <url><loc>https://saremotejobs.co.za/categories/customer-support/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/customer-support/with-pay/</loc><lastmod>2026-10-30</lastmod><priority>0.6</priority></url>
-  <url><loc>https://saremotejobs.co.za/categories/sales-business-development/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/categories/sales-business-development/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/sales-business-development/entry-level/</loc><lastmod>2026-10-30</lastmod><priority>0.6</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/sales-business-development/with-pay/</loc><lastmod>2026-10-30</lastmod><priority>0.6</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/sales-business-development/part-time/</loc><lastmod>2026-10-28</lastmod><priority>0.6</priority></url>
-  <url><loc>https://saremotejobs.co.za/categories/marketing-content/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/categories/marketing-content/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/marketing-content/with-pay/</loc><lastmod>2026-10-30</lastmod><priority>0.6</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/marketing-content/part-time/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/finance-accounting/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/finance-accounting/with-pay/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/software-it/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/software-it/with-pay/</loc><lastmod>2026-10-28</lastmod><priority>0.6</priority></url>
-  <url><loc>https://saremotejobs.co.za/categories/design-creative/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://saremotejobs.co.za/categories/design-creative/</loc><lastmod>2026-10-31</lastmod><priority>0.7</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/design-creative/with-pay/</loc><lastmod>2026-10-26</lastmod><priority>0.6</priority></url>
   <url><loc>https://saremotejobs.co.za/categories/design-creative/part-time/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
   <url><loc>https://saremotejobs.co.za/guides/how-to-get-paid-in-dollars-south-africa/</loc><lastmod>2026-09-06</lastmod><priority>0.7</priority></url>
