@@ -1043,5 +1043,10 @@
     "file": "sleek.png",
     "w": 48,
     "h": 48
+  },
+  "online-education-services": {
+    "file": "online-education-services.png",
+    "w": 192,
+    "h": 192
   }
 }
