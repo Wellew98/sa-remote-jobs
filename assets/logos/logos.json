@@ -1048,5 +1048,10 @@
     "file": "online-education-services.png",
     "w": 192,
     "h": 192
+  },
+  "limitless-agency": {
+    "file": "limitless-agency.png",
+    "w": 512,
+    "h": 512
   }
 }
