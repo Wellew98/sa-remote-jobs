@@ -1053,5 +1053,10 @@
     "file": "limitless-agency.png",
     "w": 512,
     "h": 512
+  },
+  "seeq": {
+    "file": "seeq.png",
+    "w": 192,
+    "h": 192
   }
 }
