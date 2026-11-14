@@ -16,5 +16,10 @@
 /assets/og-default.jpg
   Cache-Control: public, max-age=86400, must-revalidate
 
+# Job pages are deleted when a posting closes, and Pages' per-data-centre
+# asset cache otherwise keeps serving the removed HTML for up to a week.
+/jobs/*
+  Cache-Control: public, max-age=0, s-maxage=60, must-revalidate
+
 /go/*
   Cache-Control: no-store
