@@ -1058,5 +1058,10 @@
     "file": "seeq.png",
     "w": 192,
     "h": 192
+  },
+  "longdue-games": {
+    "file": "longdue-games.png",
+    "w": 192,
+    "h": 192
   }
 }
