@@ -1068,5 +1068,15 @@
     "file": "openfn.ico",
     "w": 48,
     "h": 48
+  },
+  "somerce": {
+    "file": "somerce.png",
+    "w": 256,
+    "h": 256
+  },
+  "equus-software": {
+    "file": "equus-software.png",
+    "w": 192,
+    "h": 192
   }
 }
