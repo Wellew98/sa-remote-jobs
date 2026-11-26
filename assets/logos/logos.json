@@ -1078,5 +1078,10 @@
     "file": "equus-software.png",
     "w": 192,
     "h": 192
+  },
+  "matific": {
+    "file": "matific.png",
+    "w": 48,
+    "h": 48
   }
 }
